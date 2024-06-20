@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\EMIAS\bin\Debug\EMIAS.exe.config
+C:\Users\HP\source\repos\EMIAS\bin\Debug\EMIAS.exe
+C:\Users\HP\source\repos\EMIAS\bin\Debug\EMIAS.pdb
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\EMIAS\obj\Debug\View\MainWindow.g.cs
+C:\Users\HP\source\repos\EMIAS\obj\Debug\App.g.cs
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS_MarkupCompile.cache
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS_MarkupCompile.lref
+C:\Users\HP\source\repos\EMIAS\obj\Debug\View\MainWindow.baml
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.g.resources
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.Properties.Resources.resources
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.exe
+C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.pdb

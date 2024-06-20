@@ -1,0 +1,19 @@
+﻿<Window x:Class="EMIAS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EMIAS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"  >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="1" Text="{Binding Kalendar1}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Button Grid.Row="0" Content="Изменить текст" Command="{Binding Prevcommand}"/>
+        <Button Grid.Row="2" Command="{Binding Nextcommand}" Content="Нажми" Background="Red" FontSize="30"/>
+    </Grid>
+</Window>
