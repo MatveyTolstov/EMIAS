@@ -13,3 +13,28 @@ C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
 C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.exe
 C:\Users\HP\source\repos\EMIAS\obj\Debug\EMIAS.pdb
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.AssemblyReference.cache
+D:\Рабочий стол\Emias\obj\Debug\View\MainWindow.g.cs
+D:\Рабочий стол\Emias\obj\Debug\EMIAS_MarkupCompile.cache
+D:\Рабочий стол\Emias\obj\Debug\EMIAS_MarkupCompile.lref
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.exe
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.pdb
+D:\Рабочий стол\Emias\bin\Debug\EMIAS.exe.config
+D:\Рабочий стол\Emias\bin\Debug\EMIAS.exe
+D:\Рабочий стол\Emias\bin\Debug\EMIAS.pdb
+D:\Рабочий стол\Emias\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Рабочий стол\Emias\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Рабочий стол\Emias\bin\Debug\MaterialDesignColors.dll
+D:\Рабочий стол\Emias\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Рабочий стол\Emias\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Рабочий стол\Emias\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Рабочий стол\Emias\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Рабочий стол\Emias\bin\Debug\MaterialDesignColors.pdb
+D:\Рабочий стол\Emias\obj\Debug\App.g.cs
+D:\Рабочий стол\Emias\obj\Debug\App.baml
+D:\Рабочий стол\Emias\obj\Debug\View\MainWindow.baml
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.g.resources
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.Properties.Resources.resources
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.GenerateResource.cache
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.Up2Date
