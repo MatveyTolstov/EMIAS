@@ -13,7 +13,7 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Text="{Binding Kalendar1}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
-        <Button Grid.Row="0" Content="Изменить текст" Command="{Binding Prevcommand}"/>
+        <Button Grid.Row="0" Content="Изменить текст" Command="{Binding Prevcommand}" Background="Coral"/>
         <Button Grid.Row="2" Command="{Binding Nextcommand}" Content="Нажми" Background="Red" FontSize="30"/>
     </Grid>
 </Window>
