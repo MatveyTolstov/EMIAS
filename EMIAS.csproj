@@ -60,6 +60,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="View\Appointment_Doc_Black.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Appointment_Doc_White.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,10 +76,18 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ViewModel\AppointmentDocBlackViewMode.cs" />
+    <Compile Include="ViewModel\AppointmentDocWhiteViewModel.cs" />
     <Compile Include="ViewModel\Helpers\BinadleCommand.cs" />
     <Compile Include="ViewModel\Helpers\BindingHelper.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\Nana.cs" />
+    <Compile Include="View\Appointment_Doc_Black.xaml.cs">
+      <DependentUpon>Appointment_Doc_Black.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Appointment_Doc_White.xaml.cs">
+      <DependentUpon>Appointment_Doc_White.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -104,14 +120,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ApiLibr\ApiLibr.csproj">
       <Project>{e18012a6-86e7-4aae-b6ef-d50c17b68962}</Project>
       <Name>ApiLibr</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets')" />
