@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EMIAS.View;
 using EMIAS.ViewModel;
 
 namespace EMIAS
@@ -27,6 +28,13 @@ namespace EMIAS
 
             DataContext = new MainViewModel(); // Xaml xaml.cs -> MainViewModel
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Appointment_Doc_Black white = new Appointment_Doc_Black();
+            white.Show();
+            Close();
         }
     }
 }

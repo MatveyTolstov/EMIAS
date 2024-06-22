@@ -40,3 +40,33 @@ D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
 D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.Up2Date
 D:\Рабочий стол\Emias\bin\Debug\ApiLibr.dll
 D:\Рабочий стол\Emias\bin\Debug\ApiLibr.pdb
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.csproj.AssemblyReference.cache
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\View\Appointment_Doc_White.g.cs
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\View\MainWindow.g.cs
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\App.g.cs
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS_MarkupCompile.cache
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS_MarkupCompile.lref
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.exe
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.pdb
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\View\Appointment_Doc_Black.g.cs
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\EMIAS.exe.config
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\EMIAS.exe
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\EMIAS.pdb
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\MaterialDesignColors.dll
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\ekono\source\repos\EMIAS\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\App.baml
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\View\MainWindow.baml
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\View\Appointment_Doc_White.baml
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\View\Appointment_Doc_Black.baml
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.g.resources
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.Properties.Resources.resources
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
+C:\Users\ekono\source\repos\EMIAS\obj\Debug\EMIAS.csproj.CopyComplete
