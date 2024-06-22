@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMIAS", "EMIAS.csproj", "{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLibr", "..\ApiLibr\ApiLibr.csproj", "{E18012A6-86E7-4AAE-B6EF-D50C17B68962}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18012A6-86E7-4AAE-B6EF-D50C17B68962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18012A6-86E7-4AAE-B6EF-D50C17B68962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18012A6-86E7-4AAE-B6EF-D50C17B68962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18012A6-86E7-4AAE-B6EF-D50C17B68962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -38,3 +38,5 @@ D:\Рабочий стол\Emias\obj\Debug\EMIAS.Properties.Resources.resources
 D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.GenerateResource.cache
 D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
 D:\Рабочий стол\Emias\obj\Debug\EMIAS.csproj.Up2Date
+D:\Рабочий стол\Emias\bin\Debug\ApiLibr.dll
+D:\Рабочий стол\Emias\bin\Debug\ApiLibr.pdb
