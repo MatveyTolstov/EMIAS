@@ -19,7 +19,7 @@
 
 
         <!-- ВЕРХНЯЯ ЧАСТЬ -->
-        <StackPanel Background="#2196F3" Grid.Column="0">
+        <StackPanel Background="#2196F3" Grid.Column="0" >
             <Grid Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -30,12 +30,19 @@
             </Grid>
             <Border BorderBrush="White" BorderThickness="0,0,0,1" Margin="10"/>
             <!-- Buttons "Главная" -->
-            <Button Content="Главная" Foreground="White" Background="#2196F3" BorderBrush="{x:Null}" Click="OnMainMenuButtonClick"/>
+            <TreeViewItem Header="Главная" Foreground="White">
+                <TreeViewItem Header="Записи и направления" Foreground="White"/>
+                <TreeViewItem Header="Рецепты" Foreground="White"/>
+                <TreeViewItem Header="Диспансеризация" Foreground="White"/>
+            </TreeViewItem>
             <!-- Buttons "Главная" -->
 
             <!-- Buttons "Медкарта" -->
-            <Button Content="Медкарта" Foreground="White" Background="#2196F3" BorderBrush="{x:Null}" Click="OnMedCardButtonClick"/>
-            <!-- Buttons "Медкарта" -->
+            <TreeViewItem Header="Медкарта"  Foreground="White">
+                <TreeViewItem Header="Приемы" Foreground="White" />
+                <TreeViewItem Header="Анализы" Foreground="White"/>
+                <TreeViewItem Header="Исследования" Foreground="White"/>
+            </TreeViewItem>
 
             <!-- Buttons for "Главная" -->
             <StackPanel Name="MainMenuStackPanel" Visibility="Collapsed">
@@ -75,8 +82,8 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Полис ОМС: Ирина" FontSize="10" Foreground="White" Background="#2196F3" BorderBrush="{x:Null}" Click="OnIrinaButtonClick" VerticalAlignment="Center" HorizontalAlignment="Center" Width="124"/>
-                    <Button Grid.Column="1" Margin="18,5,-8,5" Background="#2196F3" BorderBrush="{x:Null}" Click="OnGearButtonClick">
+                    <Button Content="Полис ОМС: Ирина" FontSize="10" Style="{StaticResource BlueBottom}" Click="OnIrinaButtonClick"   Width="124"/>
+                    <Button Grid.Column="1" Style="{StaticResource BlueBottom}" Click="OnGearButtonClick">
                         <Image Source="../img/gear.png" Width="20" Height="20"/>
                     </Button>
                 </Grid>
