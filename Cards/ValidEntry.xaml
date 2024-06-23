@@ -30,7 +30,7 @@
                     <TextBlock Text="30 мая" FontSize="12px" Grid.Row="1" Foreground="#807F7F" Padding="5px" VerticalAlignment="Center"/>
                 </Grid>
                 <TextBlock Text="Москва, Профсоюзная улица, д.111А" FontSize="12px" Grid.Column="1" Grid.Row="0" Margin="0,0,5,0" Foreground="#807F7F" TextAlignment="Right" TextWrapping="Wrap"/>
-                <Button Grid.Column="0" Grid.Row="1" Content="Перенести" Margin="5" VerticalAlignment="Center" FontSize="12" Background="#007BFE" Foreground="#FFFFFF" BorderBrush="Snow"/>
+                <Button Grid.Column="0" Grid.Row="1" Content="Перенести" Margin="5" VerticalAlignment="Center" FontSize="12" Background="#2196F3" Foreground="#FFFFFF" BorderBrush="Snow"/>
                 <Button Grid.Column="1" Grid.Row="1" Content="Отменить" Margin="5" VerticalAlignment="Center" FontSize="12" Background="#FE0000" Foreground="#FFFFFF" BorderBrush="Snow"/>
             </Grid>
         </Grid>

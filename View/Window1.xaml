@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:EMIAS"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Title="Window1" Height="450" Width="800" Style="{StaticResource WindowDefault}">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -26,12 +26,12 @@
 
         <Rectangle Grid.Row="1" Grid.RowSpan="3" Grid.Column="0" Fill="#EDEDED"/>
         <DatePicker Grid.Row="1" VerticalAlignment="Top" materialDesign:HintAssist.Hint="Расписание:"/>
-        <Button Content="Выйти" Grid.Row="4" VerticalAlignment="Bottom" Background="#FE0000" Margin="12,12,12,12" Cursor="Hand"/>
+        <Button Content="Выйти" Grid.Row="4" VerticalAlignment="Bottom" Style="{StaticResource RedButton}"  Margin="12,12,12,12" Cursor="Hand"/>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column ="2">
-            <Button x:Name="btnMin" Content="-" Width="30" Height="30" Padding="0" BorderBrush="Transparent" Background="Transparent" Foreground="White"/>
-            <Button x:Name="btnMax" Content="o" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="White" IsCancel="True" Padding="0"/>
-            <Button x:Name="clsbtn" Content="X" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent"  FontSize="10" Padding="0" Foreground="White"/>
+            <Button x:Name="btnMin" Style="{StaticResource MinimizeButtonStyle}"/>
+            <Button x:Name="btnMax"  Style="{StaticResource MaximizeButtonStyle}"/>
+            <Button x:Name="clsbtn" Style="{StaticResource CloseButtonStyle}"/>
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.ColumnSpan="2">
@@ -75,7 +75,7 @@
                         <ColumnDefinition Width="3*"/>
                     </Grid.ColumnDefinitions>
                     <ComboBox Width="auto" materialDesign:HintAssist.Hint="Специальность врача" Grid.Row="0" Grid.Column="0" BorderThickness="1"/>
-                    <Button Content="Добавить направление" Grid.Row="0" Grid.Column="2" Margin="12, 0, 12, 0" Background="#007BFE" Cursor="Hand"/>
+                    <Button Content="Добавить направление" Grid.Row="0" Grid.Column="2" Margin="12, 0, 12, 0" Style="{StaticResource BlueBottom}" Cursor="Hand"/>
                 </Grid>
 
                 <ListBox Height="auto" d:ItemsSource="{d:SampleData ItemCount=2}"/>

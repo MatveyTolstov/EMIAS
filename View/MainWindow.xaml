@@ -7,7 +7,7 @@
         xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
         xmlns:local="clr-namespace:EMIAS" 
         mc:Ignorable="d"
-        Title="MainWindow" Height="850" Width="1500" FontSize="14" FontFamily="Inter" FontWeight="Regular" Foreground="White" MouseDown="Window_MouseDown" MinHeight="472" MinWidth="718">
+        Title="MainWindow" Style="{StaticResource WindowDefault}" Height="850" Width="1500" MouseDown="Window_MouseDown">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -26,7 +26,7 @@
             <TextBlock Text="в. 1.0" FontSize="20" FontWeight="Medium" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"></TextBlock>
             <Separator VerticalAlignment="Bottom" Background="White" Margin="10 0 10 0" Height="1"></Separator>
         </Grid>
-        <Grid Background="#007BFE" Grid.Column="0" Grid.Row="1">
+        <Grid Background="#2196F3" Grid.Column="0" Grid.Row="1">
             <WrapPanel Orientation="Vertical" >
 
                 <TreeViewItem Header="Главная" Foreground="White">
@@ -41,7 +41,7 @@
                 </TreeViewItem>
             </WrapPanel>
         </Grid>
-        <Grid Grid.Row="2" Background="#007BFE"></Grid>
+        <Grid Grid.Row="2" Background="#2196F3"></Grid>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="20 0 0 0" Text="Запись" Foreground="Black" VerticalAlignment="Center" FontSize="20"></TextBlock>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column ="1">
             <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
@@ -64,7 +64,7 @@
         <Grid Grid.Row="2">
             <Separator VerticalAlignment="Top" Background="White" Margin="10 0 10 0" Height="1"></Separator>
             <WrapPanel VerticalAlignment="Center">
-                <TextBlock Text="Полис ОМС: " VerticalAlignment="Center" ></TextBlock>
+                <TextBlock  Margin="10" Text="Полис ОМС: " VerticalAlignment="Center" ></TextBlock>
                 <ComboBox></ComboBox>
             </WrapPanel>
             <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0" HorizontalAlignment="Right" Margin="0 0 10 0">
@@ -73,6 +73,6 @@
                 </UserControl>
             </Button>
         </Grid>
-        <Frame x:Name="PagesFrame" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Margin="20 0 0 0"></Frame>
+        <Frame x:Name="PagesFrame" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Margin="20 0 0 0" Cursor=""></Frame>
     </Grid>
 </Window>

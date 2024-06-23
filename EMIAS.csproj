@@ -96,6 +96,10 @@
     <Compile Include="View\MainWindow.xaml.cs" />
     <Compile Include="View\user_page.xaml.cs" />
     <Compile Include="View\Window1.xaml.cs" />
+    <Page Include="ButtonForWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cards\Analysis_white.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -205,6 +209,12 @@
     <Content Include="img\close.svg" />
     <Content Include="img\full.svg" />
     <Content Include="img\Glasses.svg" />
+    <Resource Include="img\icons8-maximize-button-32.png" />
+    <Resource Include="img\icons8-close-32 %282%29.png" />
+    <Resource Include="img\icons8-minimize-32.png" />
+    <Resource Include="img\icons8-close-32.png" />
+    <Resource Include="img\icons8-minimize-32 %281%29.png" />
+    <Resource Include="img\icons8-maximize-button-32 %281%29.png" />
     <Content Include="img\settings.svg" />
     <Content Include="img\tema.svg" />
     <Content Include="img\wrap.svg" />
