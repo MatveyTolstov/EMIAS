@@ -2,13 +2,160 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:EMIAS"
-             StartupUri="View/MainWindow.xaml"
+             StartupUri="View\MedCard.xaml"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
     <Application.Resources>
+
+        
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            <!--Кнопка синня-->
+            <Style x:Key="BlueBottom" TargetType="Button">
+                <Setter Property="Background" Value="#2196F3"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+            </Style>
+            <Style x:Key="TreeView" TargetType="TreeViewItem">
+                <Setter Property="Foreground" Value="White"/>
+            </Style>
+            <!--Кнопка красная-->
+            <Style x:Key="RedButton" TargetType="Button">
+                <Setter Property="Background" Value="#FE0000"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+            </Style>
+            <!--Кнопка серая-->
+            <Style x:Key="GreyButton" TargetType="Button">
+                <Setter Property="Background" Value="#807F7F"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="{x:Null}"/>
+            </Style>
+            <!--Окно-->
+            <Style x:Key="WindowDefault" TargetType="Window">
+                <Setter Property="MinWidth" Value="718"/>
+                <Setter Property="MinWidth" Value="472"/>
+                <Setter Property="Height" Value="850"/>
+                <Setter Property="Width" Value="700"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="FontFamily" Value="Inter"/>
+                <Setter Property="FontWeight" Value="Regular"/>
+                <Setter Property="Foreground" Value="White"/>
+            </Style>
+            <!--Таблица-->
+            <Style x:Key="GridDefault" TargetType="Grid">
+                <Setter Property="Background" Value="#EDEDED"/>
+            </Style>
+            <!--ТекстБокс-->
+            <Style x:Key="TextBox" TargetType="TextBox">
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+            </Style>
+
+            <Style x:Key="StackPanelDefault" TargetType="StackPanel">
+                <Setter Property="Background" Value="#2196F3"/>
+                
+            </Style>
+
+            <!-- Style for Minimize Button -->
+            <Style x:Key="MinimizeButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Width="40" Height="40">
+                                <Rectangle Fill="#2196F3" />
+                                <Image Source="img\icons8-minimize-32.png" Height="20"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Style for Maximize Button -->
+            <Style x:Key="MaximizeButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Width="40" Height="40">
+                                <Rectangle Fill="#2196F3" />
+                                <Image Source="img\icons8-maximize-button-32.png" Height="20"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Style for Close  -->
+            <Style x:Key="CloseButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Width="40" Height="40">
+                                <Rectangle Name="BackgroundRectangle" Fill="#2196F3" />
+                                <Image Source="img\icons8-close-32 (2).png" Height="20"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="BackgroundRectangle" Property="Fill" Value="Red"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+
+            <!-- Style for Minimize Button -->
+            <Style x:Key="WhiteMinimizeButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Width="40" Height="40">
+                                <Rectangle Fill="#ffff" />
+                                <Image Source="img\icons8-minimize-32 (1).png" Height="20"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Style for Maximize Button -->
+            <Style x:Key="WhiteMaximizeButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Width="40" Height="40">
+                                <Rectangle Fill="#ffff" />
+                                <Image Source="img\icons8-maximize-button-32 (1).png" Height="20"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Style for Close  -->
+            <Style x:Key="WhiteCloseButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Width="40" Height="40">
+                                <Rectangle Name="BackgroundRectangle" Fill="#ffff" />
+                                <Image Source="img\icons8-close-32.png" Height="20"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="BackgroundRectangle" Property="Fill" Value="Red"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+
         </ResourceDictionary>
+        
+        
     </Application.Resources>
 </Application>
