@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Style for Minimize Button -->
+    <Style x:Key="MinimizeButtonStyle" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid Width="40" Height="40">
+                        <Rectangle Fill="Transparent" />
+                        <TextBlock Text="-" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="18"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Style for Maximize Button -->
+    <Style x:Key="MaximizeButtonStyle" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid Width="40" Height="40">
+                        <Rectangle Fill="Transparent" />
+                        <TextBlock Text="□" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="18"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Style for Close  -->
+    <Style x:Key="CloseButtonStyle" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid Width="40" Height="40">
+                        <Rectangle Fill="Transparent" />
+                        <TextBlock Text="×" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="18"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
