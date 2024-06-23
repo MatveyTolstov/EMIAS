@@ -13,7 +13,7 @@
             </ResourceDictionary.MergedDictionaries>
             <!--Кнопка синня-->
             <Style x:Key="BlueBottom" TargetType="Button">
-                <Setter Property="Background" Value="#2196F3"/>
+                <Setter Property="Background" Value="#007BFE"/>
                 <Setter Property="Foreground" Value="White"/>
                 <Setter Property="BorderBrush" Value="{x:Null}"/>
             </Style>
@@ -54,7 +54,7 @@
             </Style>
 
             <Style x:Key="StackPanelDefault" TargetType="StackPanel">
-                <Setter Property="Background" Value="#2196F3"/>
+                <Setter Property="Background" Value="#007BFE"/>
                 
             </Style>
 
@@ -63,9 +63,9 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid Width="40" Height="40">
-                                <Rectangle Fill="#2196F3" />
-                                <Image Source="img\icons8-minimize-32.png" Height="20"/>
+                            <Grid Width="20" Height="30">
+                                <Rectangle Fill="#007BFE" />
+                                <Image Source="img\icons8-minimize-32.png" Height="13"/>
                             </Grid>
                         </ControlTemplate>
                     </Setter.Value>
@@ -77,9 +77,9 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid Width="40" Height="40">
+                            <Grid Width="20" Height="30">
                                 <Rectangle Fill="#2196F3" />
-                                <Image Source="img\icons8-maximize-button-32.png" Height="20"/>
+                                <Image Source="img\icons8-maximize-button-32.png" Height="13"/>
                             </Grid>
                         </ControlTemplate>
                     </Setter.Value>
@@ -91,15 +91,10 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid Width="40" Height="40">
-                                <Rectangle Name="BackgroundRectangle" Fill="#2196F3" />
-                                <Image Source="img\icons8-close-32 (2).png" Height="20"/>
+                            <Grid Width="20" Height="30">
+                                <Rectangle  Fill="#2196F3" />
+                                <Image Source="img\icons8-close-32 (2).png" Height="13"/>
                             </Grid>
-                            <ControlTemplate.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter TargetName="BackgroundRectangle" Property="Fill" Value="Red"/>
-                                </Trigger>
-                            </ControlTemplate.Triggers>
                         </ControlTemplate>
                     </Setter.Value>
                 </Setter>
@@ -111,9 +106,9 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid Width="40" Height="40">
+                            <Grid Width="20" Height="30">
                                 <Rectangle Fill="#ffff" />
-                                <Image Source="img\icons8-minimize-32 (1).png" Height="20"/>
+                                <Image Source="img\icons8-minimize-32 (1).png" Height="13"/>
                             </Grid>
                         </ControlTemplate>
                     </Setter.Value>
@@ -125,9 +120,9 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid Width="40" Height="40">
+                            <Grid Width="20" Height="30">
                                 <Rectangle Fill="#ffff" />
-                                <Image Source="img\icons8-maximize-button-32 (1).png" Height="20"/>
+                                <Image Source="img\icons8-maximize-button-32 (1).png" Height="13"/>
                             </Grid>
                         </ControlTemplate>
                     </Setter.Value>
@@ -139,15 +134,10 @@
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">
-                            <Grid Width="40" Height="40">
+                            <Grid Width="20" Height="30">
                                 <Rectangle Name="BackgroundRectangle" Fill="#ffff" />
-                                <Image Source="img\icons8-close-32.png" Height="20"/>
+                                <Image Source="img\icons8-close-32.png" Height="13"/>
                             </Grid>
-                            <ControlTemplate.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter TargetName="BackgroundRectangle" Property="Fill" Value="Red"/>
-                                </Trigger>
-                            </ControlTemplate.Triggers>
                         </ControlTemplate>
                     </Setter.Value>
                 </Setter>
