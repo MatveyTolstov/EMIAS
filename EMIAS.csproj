@@ -94,6 +94,7 @@
     <Compile Include="View\doctor_page.xaml.cs" />
     <Compile Include="View\MainPagePatient.xaml.cs" />
     <Compile Include="View\MainWindow.xaml.cs" />
+    <Compile Include="View\Profile_User.xaml.cs" />
     <Compile Include="View\user_page.xaml.cs" />
     <Compile Include="View\Window1.xaml.cs" />
     <Page Include="ButtonForWindow.xaml">
@@ -166,6 +167,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Profile_User.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
