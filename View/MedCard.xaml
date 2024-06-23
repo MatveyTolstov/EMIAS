@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EMIAS.View"
         mc:Ignorable="d"
-        Title="MedCard" Style="{StaticResource WindowDefault}" Width="1000">
+        Title="MedCard" Style="{StaticResource WindowDefault}" Width="1400">
     <!--Скрытие кнопок-->
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
@@ -17,7 +17,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <!--Меню-->
-        <StackPanel Background="#2196F3" Grid.Column="0" >
+        <StackPanel Background="#FF007BFE" Grid.Column="0" >
             <Grid Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -70,14 +70,43 @@
         </StackPanel>
         <!--Меню-->
         
+
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
+
+            <!-- НИЖНЯЯ ЧАСТЬ -->
+            <DockPanel Grid.Column="0" VerticalAlignment="Top" Height="60" Margin="-320,719,1085,0" Grid.Row="1">
+                <StackPanel Margin="10">
+                    <Border BorderBrush="White" BorderThickness="0,1,0,0" Margin="10,0,10,0"/>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="Полис ОМС:" VerticalAlignment="Top" Width="120" Margin="0,3,0,0" BorderBrush="{x:Null}"/>
+                        <ComboBox HorizontalAlignment="Left" Margin="74,0,0,0" Width="84" Background="{x:Null}" BorderBrush="White"/>
+                        <Button Grid.Column="1" Style="{StaticResource BlueBottom}" >
+                            <Image Source="../img/gear.png" Width="20" Height="20"/>
+                        </Button>
+
+
+                    </Grid>
+                    <StackPanel Name="OnGearStackPanel" Visibility="Collapsed" Background="#2196F3" Margin="10">
+                        <TextBlock Text="Темная тема" Foreground="White" Background="#2196F3" Margin="5" Cursor="Hand" />
+                    </StackPanel>
+                    <StackPanel Name="IrinaMenuStackPanel" Visibility="Collapsed" Background="#2196F3" Margin="10">
+                        <TextBlock Text="Выход" Foreground="White" Background="#2196F3" Margin="5" Cursor="Hand" />
+                    </StackPanel>
+                </StackPanel>
+            </DockPanel>
+            <!-- НИЖНЯЯ ЧАСТЬ -->
+
             <!--Header-->
             <Grid Grid.Row="0">
-                <Label Content="Приёмы" HorizontalAlignment="Left" Foreground="Black" FontSize="16" Margin="20 0"/>
+                <Label Content="Приёмы" HorizontalAlignment="Left" Foreground="Black" FontSize="19" Margin="14,14,0,-14" Width="84"/>
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 0 5 0" >
                     <Button Style="{StaticResource WhiteMinimizeButtonStyle}"  Margin="0 0 0 25"/>
                     <Button Style="{StaticResource WhiteMaximizeButtonStyle}" Margin="0 0 0 25"/>
@@ -85,15 +114,65 @@
                 </StackPanel>
             </Grid>
             <!--Header-->
-            <Grid Grid.Row="1">
+            <Grid Grid.Row="1" >
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
+                    <ColumnDefinition />
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Border Background="#EDEDED">
-                    
-                </Border>
+                <Border Margin="18,0,10,10" Grid.Column="0" Background="#EDEDED"/>
+                <Grid Grid.Column="1" Margin="0 0 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="0 0 0 0" >
+                        <Grid.ColumnDefinitions >
+                            <ColumnDefinition Width="350"/>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <!--TextBox-->
+                        <TextBox Margin="0 0 0 0"  Grid.Column="0" Text="Осмотор травматолога-ортопеда" Foreground="Black" BorderBrush="{x:Null}" FontSize="20" TextWrapping="Wrap"/>
+
+
+                        <Grid Grid.Column="1" Margin="0 25 10 0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBox  Grid.Row="0" Foreground="Black" Text="Москва, Каширское ш. д. 62" BorderBrush="{x:Null}" HorizontalAlignment="Right"/>
+                            <TextBox  Grid.Row="1" Foreground="Black" Text="12 декабря 2022 г." BorderBrush="{x:Null}" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </Grid>
+
+
+
+                    <!--RichTextBox-->
+                    <RichTextBox Grid.Row="1" Margin="0 0 10 0" >
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="" Foreground="#FFFFB0B0"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <!--RichTextBox-->
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBox  Grid.Row="2" Foreground="Black" Text="Врач:" BorderBrush="{x:Null}"/>
+                        <TextBox  Grid.Row="1" Foreground="Black" Text="Сударева Е.Ю" BorderBrush="{x:Null}"/>
+
+                    </Grid>
+
+
+                </Grid>
+
             </Grid>
+
+
 
         </Grid>
     </Grid>

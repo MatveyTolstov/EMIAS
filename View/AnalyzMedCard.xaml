@@ -1,0 +1,166 @@
+﻿<Window x:Class="EMIAS.View.AnalyzMedCard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EMIAS.View"
+        mc:Ignorable="d"
+        Title="AnalyzMedCard" WindowStartupLocation="CenterScreen" Style="{StaticResource WindowDefault}" Width="1400">
+    <!--Скрытие кнопок-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <!--Скрытие кнопок-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--Меню-->
+        <StackPanel Background="#FF007BFE" Grid.Column="0" >
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="ЕМИАС" Foreground="White" FontSize="18" Grid.Column="0" RenderTransformOrigin="0.606,0.531" FontWeight="DemiBold"/>
+                <TextBlock Text="в. 1.0" Foreground="White" Grid.Column="1" VerticalAlignment="Bottom" FontSize="16" FontWeight="DemiBold"/>
+            </Grid>
+            <Border BorderBrush="White" BorderThickness="0,0,0,1" Margin="10 0"/>
+            <!-- Buttons "Главная" -->
+            <TreeViewItem Header="Главная" Foreground="White">
+                <TreeViewItem Header="Записи и направления" Foreground="White"/>
+                <TreeViewItem Header="Рецепты" Foreground="White"/>
+                <TreeViewItem Header="Диспансеризация" Foreground="White"/>
+            </TreeViewItem>
+            <!-- Buttons "Главная" -->
+
+            <!-- Buttons "Медкарта" -->
+            <TreeViewItem Header="Медкарта"  Foreground="White">
+                <TreeViewItem Header="Приемы" Foreground="White" />
+                <TreeViewItem Header="Анализы" Foreground="White"/>
+                <TreeViewItem Header="Исследования" Foreground="White"/>
+            </TreeViewItem>
+
+            <!-- Buttons for "Главная" -->
+            <StackPanel Name="MainMenuStackPanel" Visibility="Collapsed">
+                <ListBoxItem>
+                    <TextBlock Text="Записи и направления" Foreground="White"/>
+                </ListBoxItem>
+                <ListBoxItem>
+                    <TextBlock Text="Рецепты" Foreground="White"/>
+                </ListBoxItem>
+                <ListBoxItem>
+                    <TextBlock Text="Диспансеризация" Foreground="White"/>
+                </ListBoxItem>
+            </StackPanel>
+
+            <!-- Buttons for "Медкарта" -->
+            <StackPanel Name="MedCardStackPanel" Visibility="Collapsed">
+                <ListBoxItem>
+                    <TextBlock Text="Приёмы" Foreground="White"/>
+                </ListBoxItem>
+                <ListBoxItem>
+                    <TextBlock Text="Анализы" Foreground="White"/>
+                </ListBoxItem>
+                <ListBoxItem>
+                    <TextBlock Text="Исследования" Foreground="White"/>
+                </ListBoxItem>
+            </StackPanel>
+        </StackPanel>
+        <!--Меню-->
+        <!-- НИЖНЯЯ ЧАСТЬ -->
+        <DockPanel Grid.Column="0" VerticalAlignment="Top" Margin="0,774,5,0" Height="60">
+            <StackPanel Margin="10">
+                <Border BorderBrush="White" BorderThickness="0,1,0,0" Margin="10,0,10,0"/>
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="Полис ОМС:" VerticalAlignment="Top" Width="120" Margin="0,3,0,0" BorderBrush="{x:Null}"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="74,0,0,0" Width="84" Background="{x:Null}" BorderBrush="White"/>
+                    <Button Grid.Column="1" Style="{StaticResource BlueBottom}" >
+                        <Image Source="../img/gear.png" Width="20" Height="20"/>
+                    </Button>
+
+
+                </Grid>
+                <StackPanel Name="OnGearStackPanel" Visibility="Collapsed" Background="#2196F3" Margin="10">
+                    <TextBlock Text="Темная тема" Foreground="White" Background="#2196F3" Margin="5" Cursor="Hand" />
+                </StackPanel>
+                <StackPanel Name="IrinaMenuStackPanel" Visibility="Collapsed" Background="#2196F3" Margin="10">
+                    <TextBlock Text="Выход" Foreground="White" Background="#2196F3" Margin="5" Cursor="Hand" />
+                </StackPanel>
+            </StackPanel>
+        </DockPanel>
+        <!-- НИЖНЯЯ ЧАСТЬ -->
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <!--Header-->
+            <Grid Grid.Row="0">
+                <Label Content="Анализы" HorizontalAlignment="Left" Foreground="Black" FontSize="19" Margin="14,14,0,-14" Width="84"/>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 0 5 0" >
+                    <Button Style="{StaticResource WhiteMinimizeButtonStyle}"  Margin="0 0 0 25"/>
+                    <Button Style="{StaticResource WhiteMaximizeButtonStyle}" Margin="0 0 0 25"/>
+                    <Button Style="{StaticResource WhiteCloseButtonStyle}" Margin="0 0 0 25"/>
+                </StackPanel>
+            </Grid>
+            <!--Header-->
+            
+            <Grid Grid.Row="1" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Margin="18,0,10,10" Grid.Column="0" Background="#EDEDED"/>
+                <Grid Grid.Column="1" Margin="0 0 0 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="0 0 0 0" >
+                        <Grid.ColumnDefinitions >
+                            <ColumnDefinition Width="350"/>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <!--TextBox-->
+                        <TextBox Margin="0 0 0 0"  Grid.Column="0" Text="Осмотор травматолога-ортопеда" Foreground="Black" BorderBrush="{x:Null}" FontSize="20" TextWrapping="Wrap"/>
+                       
+                        
+                        <Grid Grid.Column="1" Margin="0 0 10 0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBox  Grid.Row="0" Foreground="Black" Text="Москва, Каширское ш. д. 62" BorderBrush="{x:Null}" HorizontalAlignment="Right"/>
+                            <TextBox  Grid.Row="1" Foreground="Black" Text="12 декабря 2022 г." BorderBrush="{x:Null}" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </Grid>
+                    
+                    
+
+                    <!--RichTextBox-->
+                    <RichTextBox Grid.Row="1" Margin="0 0 10 0" >
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text="" Foreground="#FFFFB0B0"/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <!--RichTextBox-->
+
+                    
+                </Grid>
+                
+            </Grid>
+            
+            
+        </Grid>
+    </Grid>
+</Window>
