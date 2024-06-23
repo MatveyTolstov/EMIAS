@@ -25,10 +25,7 @@ namespace EMIAS.View
         {
             InitializeComponent();
         }
-        private void OnMainMenuButtonClick(object sender, RoutedEventArgs e)
-        {
-            MainMenuStackPanel.Visibility = MainMenuStackPanel.Visibility == Visibility.Collapsed ? Visibility.Visible : Visibility.Collapsed;
-        }
+
 
         private void OnMedCardButtonClick(object sender, RoutedEventArgs e)
         {

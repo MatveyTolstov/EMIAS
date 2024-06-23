@@ -1,0 +1,6 @@
+D:\Рабочий стол\ApiLibr\bin\Debug\ApiLibr.dll
+D:\Рабочий стол\ApiLibr\bin\Debug\ApiLibr.pdb
+D:\Рабочий стол\ApiLibr\obj\Debug\ApiLibr.csproj.AssemblyReference.cache
+D:\Рабочий стол\ApiLibr\obj\Debug\ApiLibr.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\ApiLibr\obj\Debug\ApiLibr.dll
+D:\Рабочий стол\ApiLibr\obj\Debug\ApiLibr.pdb
