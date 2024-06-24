@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\лев\Desktop\EMIAS\obj\Debug\
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\
 EMIAS
 none
 false
 DEBUG;TRACE
-C:\Users\лев\Desktop\EMIAS\App.xaml
-1858557974
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\App.xaml
+17-2074819433
 61908032469
-281476321238
-23-2042883873
-ButtonForWindow.xaml;Cards\Analysis_white.xaml;Cards\Archival_recording_white.xaml;Cards\DoctorCard.xaml;Cards\Info_card_white.xaml;Cards\Month.xaml;Cards\ValidEntry.xaml;Cards\Valid_entry_white.xaml;View\admin_page.xaml;View\Appointment_Doc_Black.xaml;View\Appointment_Doc_White.xaml;View\doctor_page.xaml;View\MainPagePatient.xaml;View\MainWindow.xaml;View\MedCard.xaml;View\user_page.xaml;View\Window1.xaml;View\ZapisWindow.xaml;
+27360420194
+22949004670
+ButtonForWindow.xaml;Cards\Analysis_white.xaml;Cards\Archival_recording_white.xaml;Cards\DoctorCard.xaml;Cards\Info_card_white.xaml;Cards\Month.xaml;Cards\ValidEntry.xaml;Cards\Valid_entry_white.xaml;View\admin_page.xaml;View\Appointment_Doc_Black.xaml;View\Appointment_Doc_White.xaml;View\doctor_page.xaml;View\MainPagePatient.xaml;View\MainWindow.xaml;View\Profile_User.xaml;View\user_page.xaml;View\Window1.xaml;
 
-False
+True
 
