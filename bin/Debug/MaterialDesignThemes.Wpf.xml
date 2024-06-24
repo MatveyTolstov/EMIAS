@@ -544,6 +544,15 @@
             </remarks>
             <returns></returns>
         </member>
+        <member name="M:MaterialDesignThemes.Wpf.DialogHostEx.ShowDialog(System.Windows.Window,System.Object,System.Object)">
+            <summary>
+            Shows a dialog using the first found <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/> with the supplied dialog identifier in a given <see cref="T:System.Windows.Window"/>.
+            </summary>
+            <param name="window">Window on which the modal dialog should be displayed. Must contain a <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/>.</param>
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="dialogIdentifier"><see cref="!:Identifier"/> of the instance where the dialog should be shown. Typically this will match an identifier set in XAML. <c>null</c> is allowed.</param>
+            <returns>Task result is the parameter used to close the dialog, typically what is passed to the <see cref="!:CloseDialogCommand"/> command.</returns>
+        </member>
         <member name="M:MaterialDesignThemes.Wpf.DialogHostEx.ShowDialog(System.Windows.Window,System.Object,MaterialDesignThemes.Wpf.DialogClosingEventHandler)">
             <summary>
             Shows a dialog using the first found <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/> in a given <see cref="T:System.Windows.Window"/>.
@@ -598,6 +607,18 @@
             </summary>
             <param name="childDependencyObject">Dependency object which should be a visual child of a <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/>, where the dialog will be shown.</param>        
             <param name="content">Content to show (can be a control or view model).</param>
+            <exception cref="T:System.InvalidOperationException">
+            Thrown is a <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/> is not found when conducting a depth first traversal of visual tree.  
+            </exception>
+            <returns></returns>
+        </member>
+        <member name="M:MaterialDesignThemes.Wpf.DialogHostEx.ShowDialog(System.Windows.DependencyObject,System.Object,System.Object)">
+            <summary>
+            Shows a dialog using the parent/ancestor <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/> of the a given <see cref="T:System.Windows.DependencyObject"/>.
+            </summary>
+            <param name="childDependencyObject">Dependency object which should be a visual child of a <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/>, where the dialog will be shown.</param>        
+            <param name="content">Content to show (can be a control or view model).</param>
+            <param name="dialogIdentifier"><see cref="!:Identifier"/> of the instance where the dialog should be shown. Typically this will match an identifier set in XAML. <c>null</c> is allowed.</param>
             <exception cref="T:System.InvalidOperationException">
             Thrown is a <see cref="T:MaterialDesignThemes.Wpf.DialogHost"/> is not found when conducting a depth first traversal of visual tree.  
             </exception>
@@ -760,6 +781,12 @@
             Targeted control has keyboard focus
             </summary>
             <returns></returns>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.Internal.InternalTextFieldAssist.IsMouseOverProperty">
+            <summary>
+            Used by text field "wrappers" (i.e. controls hosting a text field and decorating on top of it) to signal to the text field that the mouse is over it,
+            when in fact it is over a sibling (i.e. something in the wrapper) which is visually placed on top of the text field.
+            </summary>
         </member>
         <member name="M:MaterialDesignThemes.Wpf.ISnackbarMessageQueue.Enqueue(System.Object)">
             <summary>
@@ -1206,6 +1233,36 @@
             SetWindowPos options
             </summary>
         </member>
+        <member name="T:MaterialDesignThemes.Wpf.PrefixSuffixHintBehavior">
+            <summary>
+            Enumeration of options for how a floating hint should align with respect to a prefix/suffix
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.PrefixSuffixHintBehavior.AlignWithPrefixSuffix">
+            <summary>
+            Aligns the hint with the left/right edge of the prefix/suffix respectively
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.PrefixSuffixHintBehavior.AlignWithText">
+            <summary>
+            Aligns the hint with the left/right edge of the text
+            </summary>
+        </member>
+        <member name="T:MaterialDesignThemes.Wpf.PrefixSuffixVisibility">
+            <summary>
+            Enumeration of options for when a prefix/suffix should be visible
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.PrefixSuffixVisibility.WhenFocusedOrNonEmpty">
+            <summary>
+            Show prefix/suffix only when the text box is focused or contains user-entered text
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.PrefixSuffixVisibility.Always">
+            <summary>
+            Always show prefix/suffix
+            </summary>
+        </member>
         <member name="T:MaterialDesignThemes.Wpf.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
@@ -1450,7 +1507,7 @@
         </member>
         <member name="P:MaterialDesignThemes.Wpf.SnackbarMessageQueue.DiscardDuplicates">
             <summary>
-            Gets or sets a value that indicates whether this message queue displays messages without discarding duplicates. 
+            Gets or sets a value that indicates whether this message queue displays messages without discarding duplicates.
             False to show every message even if there are duplicates.
             </summary>
         </member>
@@ -1601,9 +1658,29 @@
             SuffixText dependency property
             </summary>
         </member>
+        <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.SuffixTextVisibilityProperty">
+            <summary>
+            SuffixTextVisibility dependency property. Controls when a suffix should be visible.
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.SuffixTextHintBehaviorProperty">
+            <summary>
+            SuffixTextHintBehavior dependency property. Controls how a floating hint aligns with respect to the text and suffix.
+            </summary>
+        </member>
         <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.PrefixTextProperty">
             <summary>
             PrefixText dependency property
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.PrefixTextVisibilityProperty">
+            <summary>
+            PrefixTextVisibility dependency property. Controls when a prefix should be visible.
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.PrefixTextHintBehaviorProperty">
+            <summary>
+            PrefixTextHintBehavior dependency property. Controls how a floating hint aligns with respect to the text and prefix.
             </summary>
         </member>
         <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.HasClearButtonProperty">
@@ -1639,6 +1716,11 @@
         <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.TrailingIconSizeProperty">
             <summary>
             Controls the size of the trailing icon
+            </summary>
+        </member>
+        <member name="F:MaterialDesignThemes.Wpf.TextFieldAssist.IconVerticalAlignmentProperty">
+            <summary>
+            Controls the vertical alignment of the leading-, trailing-, and clear button icons
             </summary>
         </member>
         <member name="M:MaterialDesignThemes.Wpf.TextFieldAssist.ApplyTextBoxViewMargin(System.Windows.Controls.Control,System.Windows.Thickness)">
@@ -1941,6 +2023,71 @@
             </summary>
             <param name="leaf"></param>
             <returns></returns>
+        </member>
+        <member name="T:System.Index">
+            <summary>Represent a type can be used to index a collection either from the start or the end.</summary>
+            <remarks>
+            Index is used by the C# compiler to support the new index syntax
+            <code>
+            int[] someArray = new int[5] { 1, 2, 3, 4, 5 } ;
+            int lastElement = someArray[^1]; // lastElement = 5
+            </code>
+            </remarks>
+        </member>
+        <member name="M:System.Index.#ctor(System.Int32,System.Boolean)">
+            <summary>Construct an Index using a value and indicating if the index is from the start or from the end.</summary>
+            <param name="value">The index value. it has to be zero or positive number.</param>
+            <param name="fromEnd">Indicating if the index is from the start or from the end.</param>
+            <remarks>
+            If the Index constructed from the end, index value 1 means pointing at the last element and index value 0 means pointing at beyond last element.
+            </remarks>
+        </member>
+        <member name="P:System.Index.Start">
+            <summary>Create an Index pointing at first element.</summary>
+        </member>
+        <member name="P:System.Index.End">
+            <summary>Create an Index pointing at beyond last element.</summary>
+        </member>
+        <member name="M:System.Index.FromStart(System.Int32)">
+            <summary>Create an Index from the start at the position indicated by the value.</summary>
+            <param name="value">The index value from the start.</param>
+        </member>
+        <member name="M:System.Index.FromEnd(System.Int32)">
+            <summary>Create an Index from the end at the position indicated by the value.</summary>
+            <param name="value">The index value from the end.</param>
+        </member>
+        <member name="P:System.Index.Value">
+            <summary>Returns the index value.</summary>
+        </member>
+        <member name="P:System.Index.IsFromEnd">
+            <summary>Indicates whether the index is from the start or the end.</summary>
+        </member>
+        <member name="M:System.Index.GetOffset(System.Int32)">
+            <summary>Calculate the offset from the start using the giving collection length.</summary>
+            <param name="length">The length of the collection that the Index will be used with. length has to be a positive value</param>
+            <remarks>
+            For performance reason, we don't validate the input length parameter and the returned offset value against negative values.
+            we don't validate either the returned offset is greater than the input length.
+            It is expected Index will be used with collections which always have non negative length/count. If the returned offset is negative and
+            then used to index a collection will get out of range exception which will be same affect as the validation.
+            </remarks>
+        </member>
+        <member name="M:System.Index.Equals(System.Object)">
+            <summary>Indicates whether the current Index object is equal to another object of the same type.</summary>
+            <param name="value">An object to compare with this object</param>
+        </member>
+        <member name="M:System.Index.Equals(System.Index)">
+            <summary>Indicates whether the current Index object is equal to another Index object.</summary>
+            <param name="other">An object to compare with this object</param>
+        </member>
+        <member name="M:System.Index.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary>
+        </member>
+        <member name="M:System.Index.op_Implicit(System.Int32)~System.Index">
+            <summary>Converts integer number to an Index.</summary>
+        </member>
+        <member name="M:System.Index.ToString">
+            <summary>Converts the value of the current Index object to its equivalent string representation.</summary>
         </member>
         <member name="T:System.Runtime.CompilerServices.IsExternalInit">
             <summary>
