@@ -1,0 +1,276 @@
+﻿<Window x:Class="EMIAS.View.ZapisWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EMIAS.ViewModel"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="ZapisWindow" Height="700" Width="1100">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="HoverButtonStyle">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="Opacity" Value="0.7"/> <!-- Установка прозрачности -->
+            <Setter Property="Foreground" Value="Black"/> <!-- Цвет текста кнопки -->
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#007BFE"/> <!-- Цвет при наведении -->
+                    <Setter Property="Foreground" Value="White"/> <!-- Цвет текста при наведении -->
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#005BB5"/> <!-- Цвет при нажатии -->
+                    <Setter Property="Foreground" Value="White"/> <!-- Цвет текста при нажатии -->
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая панель -->
+        <StackPanel Grid.Column="0" Background="#007BFE" Width="200">
+            <TextBlock Text="ЕМИАС" Foreground="White" FontSize="18" FontWeight="Bold" Margin="10"/>
+            <TreeView Background="Transparent" BorderThickness="0" Margin="10">
+                <TreeViewItem Header="Главная" Foreground="White" IsExpanded="True">
+                    <TreeViewItem Header="Записи и направления" Foreground="White"/>
+                    <TreeViewItem Header="Рецепты" Foreground="White"/>
+                    <TreeViewItem Header="Диспансеризация" Foreground="White"/>
+                </TreeViewItem>
+                <TreeViewItem Header="Медкарта" Foreground="White" IsExpanded="True">
+                    <TreeViewItem Header="Приёмы" Foreground="White"/>
+                    <TreeViewItem Header="Анализы" Foreground="White"/>
+                    <TreeViewItem Header="Исследования" Foreground="White"/>
+                </TreeViewItem>
+            </TreeView>
+        </StackPanel>
+
+        <!-- Основное содержимое -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Заголовок -->
+            <TextBlock Text="Выбор специалиста - Офтальмолог" FontSize="18" FontWeight="Bold" Margin="20,10"/>
+
+            <!-- Содержимое -->
+            <Grid Grid.Row="1" Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Список врачей -->
+                <StackPanel Grid.Column="0" Width="250">
+                    <ItemsControl>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderThickness="1" BorderBrush="LightGray" Margin="0,0,0,10" Padding="10" Background="WhiteSmoke">
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                                        <TextBlock Text="Ближайшая дата:"/>
+                                        <TextBlock Text="{Binding Address}" TextWrapping="Wrap"/>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsSource>
+                            <x:Array Type="{x:Type local:Doctor}">
+                                <local:Doctor Name="Иванов Иван Иванович" Address="Москва, Профсоюзная улица, д. 111A"/>
+                                <local:Doctor Name="Смирнов Сергей Петрович" Address="Москва, Каширское ш., д. 62"/>
+                                <local:Doctor Name="Петров Алексей Андреевич" Address="Москва, Тверская улица, д. 5"/>
+                                <local:Doctor Name="Кузнецов Михаил Иванович" Address="Москва, Ленина проспект, д. 14"/>
+                                <local:Doctor Name="Соколов Дмитрий Николаевич" Address="Москва, Новая улица, д. 7"/>
+                            </x:Array>
+                        </ItemsControl.ItemsSource>
+                    </ItemsControl>
+                </StackPanel>
+
+                <!-- Календарь и расписание -->
+                <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                    <TextBlock Text="Иванов Иван Иванович" FontSize="16" FontWeight="Bold"/>
+                    <TextBlock Text="Текущая неделя" Margin="0,10,0,5"/>
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}" Margin="2" Padding="5,2" Style="{StaticResource HoverButtonStyle}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsSource>
+                            <x:Array Type="sys:String">
+                                <sys:String>29 мая, ср</sys:String>
+                                <sys:String>30 мая, чт</sys:String>
+                                <sys:String>31 мая, пт</sys:String>
+                                <sys:String>1 июня, сб</sys:String>
+                                <sys:String>2 июня, вс</sys:String>
+                                <sys:String>3 июня, пн</sys:String>
+                                <sys:String>4 июня, вт</sys:String>
+                            </x:Array>
+                        </ItemsControl.ItemsSource>
+                    </ItemsControl>
+
+                    <TextBlock Text="Следующая неделя" Margin="0,10,0,5"/>
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}" Margin="2" Padding="5,2" Style="{StaticResource HoverButtonStyle}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsSource>
+                            <x:Array Type="sys:String">
+                                <sys:String>5 июня, ср</sys:String>
+                                <sys:String>6 июня, чт</sys:String>
+                                <sys:String>7 июня, пт</sys:String>
+                                <sys:String>8 июня, сб</sys:String>
+                                <sys:String>9 июня, вс</sys:String>
+                                <sys:String>10 июня, пн</sys:String>
+                                <sys:String>11 июня, вт</sys:String>
+                            </x:Array>
+                        </ItemsControl.ItemsSource>
+                    </ItemsControl>
+
+                    <TextBlock Text="Утро" Margin="0,10,0,5"/>
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}" Margin="2" Padding="5,2" Style="{StaticResource HoverButtonStyle}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsSource>
+                            <x:Array Type="sys:String">
+                                <sys:String>08:00</sys:String>
+                                <sys:String>08:10</sys:String>
+                                <sys:String>08:20</sys:String>
+                                <sys:String>08:30</sys:String>
+                                <sys:String>08:40</sys:String>
+                                <sys:String>08:50</sys:String>
+                                <sys:String>09:00</sys:String>
+                                <sys:String>09:10</sys:String>
+                                <sys:String>09:20</sys:String>
+                                <sys:String>09:30</sys:String>
+                                <sys:String>09:40</sys:String>
+                                <sys:String>09:50</sys:String>
+                                <sys:String>10:00</sys:String>
+                                <sys:String>10:10</sys:String>
+                                <sys:String>10:20</sys:String>
+                                <sys:String>10:30</sys:String>
+                                <sys:String>10:40</sys:String>
+                                <sys:String>10:50</sys:String>
+                                <sys:String>11:00</sys:String>
+                                <sys:String>11:10</sys:String>
+                                <sys:String>11:20</sys:String>
+                                <sys:String>11:30</sys:String>
+                                <sys:String>11:40</sys:String>
+                                <sys:String>11:50</sys:String>
+                            </x:Array>
+                        </ItemsControl.ItemsSource>
+                    </ItemsControl>
+
+                    <TextBlock Text="День" Margin="0,10,0,5"/>
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}" Margin="2" Padding="5,2" Style="{StaticResource HoverButtonStyle}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsSource>
+                            <x:Array Type="sys:String">
+                                <sys:String>12:00</sys:String>
+                                <sys:String>12:10</sys:String>
+                                <sys:String>12:20</sys:String>
+                                <sys:String>12:30</sys:String>
+                                <sys:String>12:40</sys:String>
+                                <sys:String>12:50</sys:String>
+                                <sys:String>13:00</sys:String>
+                                <sys:String>13:10</sys:String>
+                                <sys:String>13:20</sys:String>
+                                <sys:String>13:30</sys:String>
+                                <sys:String>13:40</sys:String>
+                                <sys:String>13:50</sys:String>
+                                <sys:String>16:00</sys:String>
+                                <sys:String>16:10</sys:String>
+                                <sys:String>16:20</sys:String>
+                                <sys:String>16:30</sys:String>
+                                <sys:String>16:40</sys:String>
+                                <sys:String>16:50</sys:String>
+                            </x:Array>
+                        </ItemsControl.ItemsSource>
+                    </ItemsControl>
+
+                    <TextBlock Text="Вечер" Margin="0,10,0,5"/>
+                    <ItemsControl>
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Button Content="{Binding}" Margin="2" Padding="5,2" Style="{StaticResource HoverButtonStyle}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                        <ItemsControl.ItemsSource>
+                            <x:Array Type="sys:String">
+                                <sys:String>17:10</sys:String>
+                                <sys:String>17:20</sys:String>
+                                <sys:String>17:30</sys:String>
+                                <sys:String>17:40</sys:String>
+                                <sys:String>17:50</sys:String>
+                                <sys:String>18:00</sys:String>
+                                <sys:String>18:10</sys:String>
+                                <sys:String>18:20</sys:String>
+                                <sys:String>18:30</sys:String>
+                                <sys:String>18:40</sys:String>
+                                <sys:String>18:50</sys:String>
+                                <sys:String>19:00</sys:String>
+                                <sys:String>19:10</sys:String>
+                                <sys:String>19:20</sys:String>
+                                <sys:String>19:30</sys:String>
+                                <sys:String>19:40</sys:String>
+                                <sys:String>19:50</sys:String>
+                            </x:Array>
+                        </ItemsControl.ItemsSource>
+                    </ItemsControl>
+                </StackPanel>
+            </Grid>
+
+            <!-- Нижние кнопки -->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Назад" Grid.Column="0" Margin="10" Padding="10,5" Style="{StaticResource BlueBottom}"/>
+                <Button Content="Записаться на прием" Grid.Column="1" Margin="10" Padding="10,5" Style="{StaticResource BlueBottom}"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
