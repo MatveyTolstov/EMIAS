@@ -213,6 +213,8 @@ C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\EMIAS.pdb
 C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\ButtonForWindow.baml
 C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\View\MedCard.g.cs
 C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\View\MedCard.baml
+<<<<<<< Updated upstream
+=======
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.AssemblyReference.cache
 C:\Users\лев\Desktop\EMIAS\obj\Debug\ButtonForWindow.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\Cards\Analysis_white.g.cs
@@ -288,3 +290,13 @@ C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.Properties.Resources.resources
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.Up2Date
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\ButtonForWindow.baml
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\AuthorizeADWindow.g.cs
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\AuthorizePatientWindow.g.cs
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\MedCard.g.cs
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\ZapisWindow.g.cs
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\MedCard.baml
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\ZapisWindow.baml
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\AuthorizeADWindow.baml
+C:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\obj\Debug\View\AuthorizePatientWindow.baml
+>>>>>>> Stashed changes
