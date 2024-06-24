@@ -91,6 +91,12 @@
     <Compile Include="Cards\Month.xaml.cs" />
     <Compile Include="Cards\ValidEntry.xaml.cs" />
     <Compile Include="Cards\Valid_entry_white.xaml.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="ViewModel\Doctor.cs" />
+    <Compile Include="View\AuthorizeADWindow.xaml.cs" />
+    <Compile Include="View\AuthorizePatientWindow.xaml.cs" />
+>>>>>>> Stashed changes
     <Compile Include="View\doctor_page.xaml.cs" />
     <Compile Include="View\MainPagePatient.xaml.cs" />
     <Compile Include="View\MainWindow.xaml.cs" />
@@ -158,6 +164,14 @@
     <Compile Include="View\Appointment_Doc_White.xaml.cs">
       <DependentUpon>Appointment_Doc_White.xaml</DependentUpon>
     </Compile>
+    <Page Include="View\AuthorizeADWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\AuthorizePatientWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\doctor_page.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
