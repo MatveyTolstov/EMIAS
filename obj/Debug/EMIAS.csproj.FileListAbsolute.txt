@@ -238,7 +238,6 @@ C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS_MarkupCompile.cache
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS_MarkupCompile.lref
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.exe
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.pdb
-C:\Users\лев\Desktop\EMIAS\obj\Debug\View\AnalyzMedCard.g.cs
 C:\Users\лев\Desktop\EMIAS\bin\Debug\EMIAS.exe.config
 C:\Users\лев\Desktop\EMIAS\bin\Debug\EMIAS.exe
 C:\Users\лев\Desktop\EMIAS\bin\Debug\EMIAS.pdb
@@ -274,7 +273,6 @@ C:\Users\лев\Desktop\EMIAS\obj\Debug\Cards\Month.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\Cards\ValidEntry.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\Cards\Valid_entry_white.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\View\admin_page.baml
-C:\Users\лев\Desktop\EMIAS\obj\Debug\View\AnalyzMedCard.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\View\Appointment_Doc_Black.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\View\Appointment_Doc_White.baml
 C:\Users\лев\Desktop\EMIAS\obj\Debug\View\doctor_page.baml
@@ -288,3 +286,5 @@ C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.Properties.Resources.resources
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
 C:\Users\лев\Desktop\EMIAS\obj\Debug\EMIAS.csproj.Up2Date
+C:\Users\лев\Desktop\EMIAS\obj\Debug\View\ZapisWindow.g.cs
+C:\Users\лев\Desktop\EMIAS\obj\Debug\View\ZapisWindow.baml

@@ -6,10 +6,18 @@
          xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:EMIAS.ViewModel"
         mc:Ignorable="d"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
         Title="Appointment_Doc_White" Height="700" Width="1000">
+    <!--Скрытие кнопок-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <!--Скрытие кнопок-->
     <Window.DataContext>
         <local:AppointmentDocWhiteViewModel/>
     </Window.DataContext>
+    
+    
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -18,17 +26,17 @@
         </Grid.ColumnDefinitions>
 
 
-        <!-- ВЕРХНЯЯ ЧАСТЬ -->
+        <!--Меню-->
         <StackPanel Background="#FF007BFE" Grid.Column="0" >
             <Grid Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Text="ЕМИАС" Foreground="White" FontSize="18" Grid.Column="0" RenderTransformOrigin="0.606,0.531"/>
-                <TextBlock Text="v. 1.0" Foreground="White" Grid.Column="1" VerticalAlignment="Bottom"/>
+                <TextBlock Text="ЕМИАС" Foreground="White" FontSize="18" Grid.Column="0" RenderTransformOrigin="0.606,0.531" FontWeight="DemiBold"/>
+                <TextBlock Text="в. 1.0" Foreground="White" Grid.Column="1" VerticalAlignment="Bottom" FontSize="16" FontWeight="DemiBold"/>
             </Grid>
-            <Border BorderBrush="White" BorderThickness="0,0,0,1" Margin="10"/>
+            <Border BorderBrush="White" BorderThickness="0,0,0,1" Margin="10 0"/>
             <!-- Buttons "Главная" -->
             <TreeViewItem Header="Главная" Foreground="White">
                 <TreeViewItem Header="Записи и направления" Foreground="White"/>
@@ -70,7 +78,7 @@
                 </ListBoxItem>
             </StackPanel>
         </StackPanel>
-        <!-- ВЕРХНЯЯ ЧАСТЬ -->
+        <!--Меню-->
 
 
         <!-- НИЖНЯЯ ЧАСТЬ -->
@@ -97,11 +105,23 @@
         </DockPanel>
         <!-- НИЖНЯЯ ЧАСТЬ -->
 
+        <!--Header-->
+        <Grid Grid.Column="1" Margin="0 0 0 0">
+            <Label Content="Записаться на приём" HorizontalAlignment="Left" Foreground="Black" FontSize="19" Margin="14,14,0,-14" Width="84"/>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 0 5 0" >
+                <Button Style="{StaticResource WhiteMinimizeButtonStyle}"  Margin="0 0 0 25" Click="Button_Click_2"/>
+                <Button Style="{StaticResource WhiteMaximizeButtonStyle}" Margin="0 0 0 25" Click="Button_Click_1"/>
+                <Button Style="{StaticResource WhiteCloseButtonStyle}" Margin="0 0 0 25" Click="Button_Click"/>
+            </StackPanel>
+        </Grid>
+        <!--Header-->
+
+
 
         <!-- СОДЕРЖАНИЕ -->
 
-        <StackPanel Grid.Column="1" Margin="10" Orientation="Vertical" Background="{Binding backgroundColor}">
-            <TextBlock Text="Записаться на приём" FontSize="24" Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Column="1" Margin="0 50 0 0" Orientation="Vertical" Background="{Binding backgroundColor}">
             <TextBlock Text="ОРВИ / COVID 19" FontSize="18" Margin="0,0,0,10"/>
             <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Disabled" Background="{Binding ScrollViewerColor}" Style="{StaticResource MaterialDesignScrollViewer}">
                 <StackPanel Orientation="Horizontal">
@@ -240,5 +260,6 @@
             </ScrollViewer>
         </StackPanel>
         <!-- СОДЕРЖАНИЕ -->
+        
     </Grid>
 </Window>

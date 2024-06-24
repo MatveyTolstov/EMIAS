@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EMIAS.View"
         mc:Ignorable="d"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
         Title="MedCard" Style="{StaticResource WindowDefault}" Width="1400">
     <!--Скрытие кнопок-->
     <WindowChrome.WindowChrome>
@@ -108,12 +109,13 @@
             <Grid Grid.Row="0">
                 <Label Content="Приёмы" HorizontalAlignment="Left" Foreground="Black" FontSize="19" Margin="14,14,0,-14" Width="84"/>
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 0 5 0" >
-                    <Button Style="{StaticResource WhiteMinimizeButtonStyle}"  Margin="0 0 0 25"/>
-                    <Button Style="{StaticResource WhiteMaximizeButtonStyle}" Margin="0 0 0 25"/>
-                    <Button Style="{StaticResource WhiteCloseButtonStyle}" Margin="0 0 0 25"/>
+                    <Button Style="{StaticResource WhiteMinimizeButtonStyle}"  Margin="0 0 0 25" Click="Button_Click_2"/>
+                    <Button Style="{StaticResource WhiteMaximizeButtonStyle}" Margin="0 0 0 25" Click="Button_Click_1"/>
+                    <Button Style="{StaticResource WhiteCloseButtonStyle}" Margin="0 0 0 25" Click="Button_Click"/>
                 </StackPanel>
             </Grid>
             <!--Header-->
+            
             <Grid Grid.Row="1" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
@@ -132,7 +134,7 @@
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
                         <!--TextBox-->
-                        <TextBox Margin="0 0 0 0"  Grid.Column="0" Text="Осмотор травматолога-ортопеда" Foreground="Black" BorderBrush="{x:Null}" FontSize="20" TextWrapping="Wrap"/>
+                        <TextBox Margin="0 0 0 0" Height="50" Grid.Column="0" Text="Осмотор травматолога-ортопеда" Foreground="Black" BorderBrush="{x:Null}" FontSize="20" TextWrapping="Wrap"/>
 
 
                         <Grid Grid.Column="1" Margin="0 25 10 0">
