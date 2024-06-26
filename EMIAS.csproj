@@ -40,6 +40,9 @@
     <Reference Include="MaterialDesignThemes.Wpf, Version=5.0.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>packages\MaterialDesignThemes.5.0.0\lib\net462\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="SharpVectors.Converters.Wpf, Version=1.8.4.0, Culture=neutral, PublicKeyToken=b532964b8548be77, processorArchitecture=MSIL">
       <HintPath>packages\SharpVectors.Wpf.1.8.4\lib\net47\SharpVectors.Converters.Wpf.dll</HintPath>
     </Reference>
@@ -91,6 +94,10 @@
     <Compile Include="Cards\Month.xaml.cs" />
     <Compile Include="Cards\ValidEntry.xaml.cs" />
     <Compile Include="Cards\Valid_entry_white.xaml.cs" />
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\ApiResult.cs" />
+    <Compile Include="Model\Doctor.cs" />
+    <Compile Include="ViewModel\Helpers\Api.cs" />
     <Compile Include="View\Authentication_Window.xaml.cs" />
     <Compile Include="View\Authentication_window_admin.xaml.cs" />
     <Compile Include="View\doctor_page.xaml.cs" />

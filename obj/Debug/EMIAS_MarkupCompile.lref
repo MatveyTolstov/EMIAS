@@ -1,19 +1,21 @@
-﻿
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\App.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\Analysis_white.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\Archival_recording_white.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\DoctorCard.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\Info_card_white.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\Month.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\ValidEntry.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\Cards\Valid_entry_white.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\admin_page.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\Appointment_Doc_Black.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\Appointment_Doc_White.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\doctor_page.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\MainPagePatient.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\MainWindow.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\Profile_User.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\user_page.xaml;;
-FC:\Users\ekono\OneDrive\Документы\GitHub\EMIAS\View\Window1.xaml;;
+﻿D:\Рабочий стол\github\EMIAS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+FD:\Рабочий стол\github\EMIAS\App.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\Analysis_white.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\Archival_recording_white.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\DoctorCard.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\Info_card_white.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\Month.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\ValidEntry.xaml;;
+FD:\Рабочий стол\github\EMIAS\Cards\Valid_entry_white.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\admin_page.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\Appointment_Doc_Black.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\Appointment_Doc_White.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\Authentication_Window.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\Authentication_window_admin.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\doctor_page.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\MainPagePatient.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\MainWindow.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\Profile_User.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\user_page.xaml;;
+FD:\Рабочий стол\github\EMIAS\View\Window1.xaml;;
 
