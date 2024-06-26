@@ -10,18 +10,24 @@
     <Window.Resources>
         <Style TargetType="Button" x:Key="HoverButtonStyle">
             <Setter Property="Background" Value="LightGray"/>
-            <Setter Property="Opacity" Value="0.7"/> <!-- Установка прозрачности -->
-            <Setter Property="Foreground" Value="Black"/> <!-- Цвет текста кнопки -->
+            <Setter Property="Opacity" Value="0.7"/>
+            <!-- Установка прозрачности -->
+            <Setter Property="Foreground" Value="Black"/>
+            <!-- Цвет текста кнопки -->
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="BorderBrush" Value="Transparent"/>
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#007BFE"/> <!-- Цвет при наведении -->
-                    <Setter Property="Foreground" Value="White"/> <!-- Цвет текста при наведении -->
+                    <Setter Property="Background" Value="#007BFE"/>
+                    <!-- Цвет при наведении -->
+                    <Setter Property="Foreground" Value="White"/>
+                    <!-- Цвет текста при наведении -->
                 </Trigger>
                 <Trigger Property="IsPressed" Value="True">
-                    <Setter Property="Background" Value="#005BB5"/> <!-- Цвет при нажатии -->
-                    <Setter Property="Foreground" Value="White"/> <!-- Цвет текста при нажатии -->
+                    <Setter Property="Background" Value="#005BB5"/>
+                    <!-- Цвет при нажатии -->
+                    <Setter Property="Foreground" Value="White"/>
+                    <!-- Цвет текста при нажатии -->
                 </Trigger>
             </Style.Triggers>
         </Style>

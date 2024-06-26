@@ -91,14 +91,21 @@
     <Compile Include="Cards\Month.xaml.cs" />
     <Compile Include="Cards\ValidEntry.xaml.cs" />
     <Compile Include="Cards\Valid_entry_white.xaml.cs" />
+    <Compile Include="ViewModel\Doctor.cs" />
     <Compile Include="View\Authentication_Window.xaml.cs" />
     <Compile Include="View\Authentication_window_admin.xaml.cs" />
     <Compile Include="View\doctor_page.xaml.cs" />
     <Compile Include="View\MainPagePatient.xaml.cs" />
     <Compile Include="View\MainWindow.xaml.cs" />
+    <Compile Include="View\MedCard.xaml.cs">
+      <DependentUpon>MedCard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Profile_User.xaml.cs" />
     <Compile Include="View\user_page.xaml.cs" />
     <Compile Include="View\Window1.xaml.cs" />
+    <Compile Include="View\ZapisWindow.xaml.cs">
+      <DependentUpon>ZapisWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="ButtonForWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -180,6 +187,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="View\MedCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Profile_User.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -191,6 +202,10 @@
     <Page Include="View\Window1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ZapisWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:EMIAS"
         mc:Ignorable="d"
-        Title="Authentication_Window" Height="220" Width="400" MouseDown="Window_MouseDown">
+        Title="Authentication_Window" Height="220" Width="400">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
