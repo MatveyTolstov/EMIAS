@@ -38,5 +38,5 @@ EMIAS (Единая медицинская информационно-анали
 - **[Матвей](https://github.com/your-username)**
 - **[Евгений](https://github.com/wvwvw5)**
 - **[Левон](https://github.com/sanderik229)**
-- **[Вадим](https://github.com/denly1)**
+- **[Вадим](https://github.com/BeshkekTOP)**
 - **[Александр](https://github.com/denly1)**
