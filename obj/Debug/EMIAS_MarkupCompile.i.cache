@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Рабочий стол\github\EMIAS\obj\Debug\
+C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\
 EMIAS
 none
 false
 DEBUG;TRACE
-D:\Рабочий стол\github\EMIAS\App.xaml
-191687008423
+C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\App.xaml
+45-906142202
 61908032469
-38993297921
-231358934324
-ButtonForWindow.xaml;Cards\Analysis_white.xaml;Cards\Archival_recording_white.xaml;Cards\DoctorCard.xaml;Cards\Info_card_white.xaml;Cards\Month.xaml;Cards\ValidEntry.xaml;Cards\Valid_entry_white.xaml;View\admin_page.xaml;View\Appointment_Doc_Black.xaml;View\Appointment_Doc_White.xaml;View\Authentication_Window.xaml;View\Authentication_window_admin.xaml;View\doctor_page.xaml;View\MainPagePatient.xaml;View\MainWindow.xaml;View\Profile_User.xaml;View\user_page.xaml;View\Window1.xaml;
+76246616715
+231192770266
+ButtonForWindow.xaml;View\Cards\AnalysisRichTextBoxView.xaml;View\Cards\Analysis_white.xaml;View\Cards\AppointmentRichTextBoxView.xaml;View\Cards\Archival_recording_white.xaml;View\Cards\ArchiveAppointmentControl.xaml;View\Cards\ArchiveMonthControl.xaml;View\Cards\CompletedAppointment.xaml;View\Cards\CurrentAppointment.xaml;View\Cards\CurrentAppointmentControl.xaml;View\Cards\CurrentMonthControl.xaml;View\Cards\DaySquareControl.xaml;View\Cards\DoctorCard.xaml;View\Cards\DoctorControl.xaml;View\Cards\HoursSquareControl.xaml;View\Cards\Info_card_white.xaml;View\Cards\MissedAppointment.xaml;View\Cards\Month.xaml;View\Cards\ResearchRichTextBoxView.xaml;View\Cards\SpecialistSquareControl.xaml;View\Cards\ValidEntry.xaml;View\Cards\Valid_entry_white.xaml;View\AdminDoctorWindow.xaml;View\AdminPatientWindow.xaml;View\AdminWindow.xaml;View\admin_page.xaml;View\Appointment_Doc_Black.xaml;View\Appointment_Doc_White.xaml;View\Authentication_Window.xaml;View\Authentication_window_admin.xaml;View\AuthorizeADWindow.xaml;View\AuthorizePatientWindow.xaml;View\DoctorMainWindow.xaml;View\doctor_page.xaml;View\MainPagePatient.xaml;View\MainPatientPage.xaml;View\MainPatientWindow.xaml;View\MainWindow.xaml;View\MeddicalCardResearchPage.xaml;View\MedicalCardAnalysPage.xaml;View\MedicalCardAppointmentPage.xaml;View\ProfilePatientPage.xaml;View\Profile_User.xaml;View\user_page.xaml;View\Window1.xaml;
 
 False
 

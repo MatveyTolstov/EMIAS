@@ -1,4 +1,5 @@
-﻿using EMIAS.ViewModel;
+﻿using EMIAS.View;
+using EMIAS.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,13 @@ namespace EMIAS
         public AuthorizePatientWindow()
         {
             InitializeComponent();
-           
+        }
+
+        private void SelectADWindow_Click(object sender, RoutedEventArgs e)
+        {
+            AuthorizeADWindow authorizeADWindow = new AuthorizeADWindow();
+            authorizeADWindow.Show();
+            this.Close();
         }
     }
 }
