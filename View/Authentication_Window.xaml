@@ -53,7 +53,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <TextBox  x:Name="NumberPolicyButton"  materialDesign:HintAssist.Hint="Номер полиса" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" BorderThickness="1" Margin="10,0,10,0"/>
-            <Button  x:Name="SignButton" Grid.Row="1" Grid.Column="0" Style="{StaticResource BlueBottom}" Content="Войти" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" />
+            <Button  x:Name="SignButton" Grid.Row="1" Grid.Column="0" Style="{StaticResource BlueBottom}" Content="Войти" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" Click="SignButton_Click" />
             <Button  x:Name="DoctorButton" Grid.Row="1" Style="{StaticResource BlueBottom}" Grid.Column="1"  Content="Я врач" Margin="15,0,15,0"  MaxHeight="26" Click="DoctorButton_Click"/>
         </Grid>
     </Grid>

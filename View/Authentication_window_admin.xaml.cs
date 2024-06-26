@@ -32,41 +32,48 @@ namespace EMIAS
         private void Button_Click(object sender, RoutedEventArgs e)// авторизация
         {
 
-            var info = new { id = LogTextBox.Text, enterPassword = PasswordBox.Password }; //создаем массив из данных
+
+            var info = new { id = LogTextBox.Text, enterPassword = PasswordBox.Password.ToString() }; //создаем массив из данных
 
             string json = JsonConvert.SerializeObject(info); // серилизация данных в json 
 
             try
             {
-                string response = Api.Post(json, "Admins/PostAdminAuthorizen"); //создал переменную для получение api
+                // Проверка авторизации администратора
+                string response = Api.Post(json, "Admins/PostAdminAuthorizen"); // создаем переменную для получения ответа API
 
-                var adminResult = JsonConvert.DeserializeObject<List<Admin>>(response); // превращаю в переменные из json
+                var adminResult = JsonConvert.DeserializeObject<Admin>(response); // превращаем json в объект Admin
 
-                if (adminResult != null && adminResult.Count > 0)
+                if (adminResult != null && adminResult.IdAdmin != 0)
                 {
-                    var admin = adminResult[0];
-
-                    MessageBox.Show($"Welcome, Admin {admin.AdminName} {admin.Surname}. Your email is {admin.Email}");
+                    MessageBox.Show($"Welcome, Admin {adminResult.AdminName} {adminResult.Surname}. Your email is {adminResult.Email}");
 
                     MainWindow mainWindow = new MainWindow();
                     mainWindow.Show();
+                    return; // если админ найден, выходим из метода
                 }
 
+                // Проверка авторизации доктора
+                string response2 = Api.Post(json, "Doctors/PostDoctorAuthorizen");
 
-                string response2 = Api.Post(json, "Doctors/PostAdminAuthorizen");
+                var doctorResult = JsonConvert.DeserializeObject<List<Doctor>>(response2); // превращаем json в список объектов Doctor
 
-                var doctorResult = JsonConvert.DeserializeObject<Doctor>(response);
-
-                if (doctorResult != null && doctorResult.IdDoctor != 0)
+                if (doctorResult != null && doctorResult.Count > 0)
                 {
-                    MessageBox.Show($"Welcome, Doctor {doctorResult.FirstName} {doctorResult.Surname}. Your speciality ID is {doctorResult.SpecialityId}");
+                    var doctor = doctorResult[0];
+                    MessageBox.Show($"Welcome, Doctor {doctor.FirstName} {doctor.Surname}. Your speciality ID is {doctor.SpecialityId}");
                     return;
                 }
+
+                // Если ни админ, ни доктор не авторизованы, выводим сообщение об ошибке
+                MessageBox.Show("Invalid credentials or user not found.");
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

@@ -3,24 +3,35 @@
   "WorkspaceRootPath": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\model\\statuss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\statuss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\view\\authentication_window_admin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window_admin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\model\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\model\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window_admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window_admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\Appointment_Doc_White.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,28 +39,24 @@
       "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\statuss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\statuss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window_admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window_admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\authentication_window_admin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\authentication_window_admin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\model\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:model\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -64,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\doctor_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\Appointment_Doc_White.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\MainPagePatient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -78,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:View\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\doctor_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -136,152 +135,6 @@
       "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:viewmodel\\helpers\\binadlecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-=======
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\view\\profile_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\profile_user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\view\\profile_user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\profile_user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\user_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\user_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|d:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\emias\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\appointment_doc_black.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\appointment_doc_black.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\user_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\user_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\mainpagepatient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\mainpagepatient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\mainpagepatient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\mainpagepatient.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\admin_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\admin_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\appointment_doc_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\appointment_doc_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\doctor_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\doctor_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\viewmodel\\appointmentdocwhiteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:viewmodel\\appointmentdocwhiteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\viewmodel\\appointmentdocblackviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:viewmodel\\appointmentdocblackviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\viewmodel\\nana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:viewmodel\\nana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\admin_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\admin_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\validentry.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\validentry.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\valid_entry_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\valid_entry_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\month.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\month.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\month.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\month.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\info_card_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\info_card_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\info_card_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\info_card_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\doctorcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\doctorcard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\doctorcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\doctorcard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\archival_recording_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\archival_recording_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\analysis_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\analysis_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\archival_recording_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\archival_recording_white.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\doctor_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\doctor_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\view\\appointment_doc_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:view\\appointment_doc_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\viewmodel\\helpers\\bindinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:viewmodel\\helpers\\bindinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\validentry.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\validentry.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\cards\\valid_entry_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{845F8E2E-6374-4C9C-BBC1-69C9C39FDB4C}|EMIAS.csproj|solutionrelative:cards\\valid_entry_white.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
->>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Helpers\\ApiHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Helpers\\ApiHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -364,17 +217,12 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-<<<<<<< Updated upstream
-          "DockedWidth": 166,
-          "SelectedChildIndex": 9,
-=======
-          "DockedWidth": 200,
+          "DockedHeight": 271,
           "SelectedChildIndex": 10,
->>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -411,63 +259,48 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-<<<<<<< Updated upstream
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Authentication_Window.xaml",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml",
+              "RelativeDocumentMoniker": "View\\Authentication_Window.xaml",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml",
+              "RelativeToolTip": "View\\Authentication_Window.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-24T21:37:56.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Statuss.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Statuss.cs",
-              "RelativeDocumentMoniker": "Model\\Statuss.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Statuss.cs",
-              "RelativeToolTip": "Model\\Statuss.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Title": "Authentication_Window.xaml.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Authentication_Window.xaml.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml.cs",
+              "RelativeToolTip": "View\\Authentication_Window.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:25:42.758Z",
+              "WhenOpened": "2024-06-24T21:18:17.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Appointment.cs",
-              "RelativeDocumentMoniker": "Model\\Appointment.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Appointment.cs",
-              "RelativeToolTip": "Model\\Appointment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Title": "Authentication_window_admin.xaml.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_window_admin.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Authentication_window_admin.xaml.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_window_admin.xaml.cs",
+              "RelativeToolTip": "View\\Authentication_window_admin.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:21:48.988Z",
+              "WhenOpened": "2024-06-24T21:38:05.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Direction.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Direction.cs",
-              "RelativeDocumentMoniker": "Model\\Direction.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Direction.cs",
-              "RelativeToolTip": "Model\\Direction.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:19:07.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Speciality.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Speciality.cs",
-              "RelativeDocumentMoniker": "Model\\Speciality.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Speciality.cs",
-              "RelativeToolTip": "Model\\Speciality.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:14:35.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Patient.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Patient.cs",
               "RelativeDocumentMoniker": "Model\\Patient.cs",
@@ -475,53 +308,114 @@
               "RelativeToolTip": "Model\\Patient.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:12:28.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T20:12:28.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Appointment.cs",
+              "RelativeDocumentMoniker": "Model\\Appointment.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Appointment.cs",
+              "RelativeToolTip": "Model\\Appointment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOySURBVEhL7VTNbxNXEJ99u951Xa\u002BjGDuxglMOtqiUSAihVoET7gna3hBe/gIOqAcoOZlTOXKoqxwSiYpL4bbJiUNEggwuIiQKIqVBaeRkaWzZSbxsbJyNv9bZj87bOmlVtVJ7rfJbvX37MW9\u002BM/Ob9\u002BAI/38w3RnW1tYEQzCiz7efC5n1DChVBeqdOvA8D/FgnM7a1JUpjdpu6VvhcrUcvpW5BUpd0aY/n9Z7\u002Bnqi95fvC3d/umugSUm5rtAZCL1RUOcWY6XBAZnhGJlwxB0sw8qEIbLH8SS7puC1vUkbbBlXy8QhSeqcBTbt2A59TzumM9g1/T2DN8U3iXKzfPll6aWkNtUwjbxH6AGe5YEjnDsYYG5fHbk6Tp0/zj9OLm0vJZ7kn0ClVclGxejK\u002BRPnpVwlF361/UrDgCYJkMnc17ksRwl22juJaqv61bPiMxB5EU71nzJOR06X\u002Bnx9BjqGzb1N6FgdzWf7AhaxLmztbQ2/KL0A3dDBcZxhta4OZgvZQKPToO8BhmEu4PwLus6ylCDyRSSxsbuR0Ns6YCRw6eNLBR/vu2mC\u002BT36n2w0G5OmYy6eOXFGq7frC8e8xwJD4aFPV3dWqU4/SMPSxLVPrp21HCuIWRQwqJs2a89UH1WbbgbL75ZBYAU4Lh4Hn8eXjfgjUxjBfCAQcEU9wBW8EEplt6KhBm4JsRTajbM3FNTOmPtgjpbSQB3e5q7n3LWuyNgVUGvXYEAcgNZ\u002B60dRFMf/6pyCdppaU2NFvRjCQcuGNHZobH4shpEL71vvkccRbMaOxcfiYbrGJaAisoQ9FPSfcNAtT/NPpfRCGlALMC1TklfldCqTGpz9dRZM24wiybe0u\u002BgalyDkC4Hf4we1oUK\u002Blqef/hYosI4lmcFMV85Fz4EoiMAQZqX/w/4Z1E6P9cYABdaRYJZxGCoyuOGeDJ6EfXsfSnqJphhKTaeGRj4agSAfhA5ehWoBcNIGAgO0bBNaTWPQWd9r9TXstnanHiYfPkLywXtL9\u002BL47a1lWd\u002Btj64rhwQX4xdBa2rw4OcHwLGchHklWIcFQgiwNpaO5aDtaU9Q59ReIIJsgZWlz9gt71AvXdO1UcdyBHRu4EYt0n8U7kab35hPlPfKlxeKC1KtUwvTbHq9veDlvOBhPcATnqZ\u002BO/VZ6ht31X/A4VmUWcvEsDXTi5uL8bniHJTrZVoud0djz4Of80/c\u002BfLOeNf8X\u002BOPswiMkrlvjqL60sHAjSNhH0pIJNHzqGt6hCP8GQC/AUWYxGG0O6mbAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-06-26T20:21:48.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Admin.cs",
+              "RelativeDocumentMoniker": "Model\\Admin.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Admin.cs",
+              "RelativeToolTip": "Model\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T12:15:08.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Appointment_Doc_White.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml",
               "RelativeDocumentMoniker": "View\\Appointment_Doc_White.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml",
               "RelativeToolTip": "View\\Appointment_Doc_White.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:28:06.09Z"
+              "WhenOpened": "2024-06-23T13:28:06.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Authentication_window_admin.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_window_admin.xaml",
               "RelativeDocumentMoniker": "View\\Authentication_window_admin.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_window_admin.xaml",
               "RelativeToolTip": "View\\Authentication_window_admin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T03:47:12.736Z"
+              "WhenOpened": "2024-06-25T03:47:12.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Authentication_Window.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml",
-              "RelativeDocumentMoniker": "View\\Authentication_Window.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml",
-              "RelativeToolTip": "View\\Authentication_Window.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-24T21:37:56.685Z"
+              "DocumentIndex": 12,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Direction.cs",
+              "RelativeDocumentMoniker": "Model\\Direction.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Direction.cs",
+              "RelativeToolTip": "Model\\Direction.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOySURBVEhL7VTNbxNXEJ99u951Xa\u002BjGDuxglMOtqiUSAihVoET7gna3hBe/gIOqAcoOZlTOXKoqxwSiYpL4bbJiUNEggwuIiQKIqVBaeRkaWzZSbxsbJyNv9bZj87bOmlVtVJ7rfJbvX37MW9\u002BM/Ob9\u002BAI/38w3RnW1tYEQzCiz7efC5n1DChVBeqdOvA8D/FgnM7a1JUpjdpu6VvhcrUcvpW5BUpd0aY/n9Z7\u002Bnqi95fvC3d/umugSUm5rtAZCL1RUOcWY6XBAZnhGJlwxB0sw8qEIbLH8SS7puC1vUkbbBlXy8QhSeqcBTbt2A59TzumM9g1/T2DN8U3iXKzfPll6aWkNtUwjbxH6AGe5YEjnDsYYG5fHbk6Tp0/zj9OLm0vJZ7kn0ClVclGxejK\u002BRPnpVwlF361/UrDgCYJkMnc17ksRwl22juJaqv61bPiMxB5EU71nzJOR06X\u002Bnx9BjqGzb1N6FgdzWf7AhaxLmztbQ2/KL0A3dDBcZxhta4OZgvZQKPToO8BhmEu4PwLus6ylCDyRSSxsbuR0Ns6YCRw6eNLBR/vu2mC\u002BT36n2w0G5OmYy6eOXFGq7frC8e8xwJD4aFPV3dWqU4/SMPSxLVPrp21HCuIWRQwqJs2a89UH1WbbgbL75ZBYAU4Lh4Hn8eXjfgjUxjBfCAQcEU9wBW8EEplt6KhBm4JsRTajbM3FNTOmPtgjpbSQB3e5q7n3LWuyNgVUGvXYEAcgNZ\u002B60dRFMf/6pyCdppaU2NFvRjCQcuGNHZobH4shpEL71vvkccRbMaOxcfiYbrGJaAisoQ9FPSfcNAtT/NPpfRCGlALMC1TklfldCqTGpz9dRZM24wiybe0u\u002BgalyDkC4Hf4we1oUK\u002Blqef/hYosI4lmcFMV85Fz4EoiMAQZqX/w/4Z1E6P9cYABdaRYJZxGCoyuOGeDJ6EfXsfSnqJphhKTaeGRj4agSAfhA5ehWoBcNIGAgO0bBNaTWPQWd9r9TXstnanHiYfPkLywXtL9\u002BL47a1lWd\u002Btj64rhwQX4xdBa2rw4OcHwLGchHklWIcFQgiwNpaO5aDtaU9Q59ReIIJsgZWlz9gt71AvXdO1UcdyBHRu4EYt0n8U7kab35hPlPfKlxeKC1KtUwvTbHq9veDlvOBhPcATnqZ\u002BO/VZ6ht31X/A4VmUWcvEsDXTi5uL8bniHJTrZVoud0djz4Of80/c\u002BfLOeNf8X\u002BOPswiMkrlvjqL60sHAjSNhH0pIJNHzqGt6hCP8GQC/AUWYxGG0O6mbAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-06-26T20:19:07.042Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Authentication_Window.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Authentication_Window.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_Window.xaml.cs",
-              "RelativeToolTip": "View\\Authentication_Window.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAD4vx4AAAAUAAAA",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T22:07:06.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Statuss.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Statuss.cs",
+              "RelativeDocumentMoniker": "Model\\Statuss.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Statuss.cs",
+              "RelativeToolTip": "Model\\Statuss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:18:17.61Z"
+              "WhenOpened": "2024-06-26T20:25:42.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Speciality.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Speciality.cs",
+              "RelativeDocumentMoniker": "Model\\Speciality.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Speciality.cs",
+              "RelativeToolTip": "Model\\Speciality.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOySURBVEhL7VTNbxNXEJ99u951Xa\u002BjGDuxglMOtqiUSAihVoET7gna3hBe/gIOqAcoOZlTOXKoqxwSiYpL4bbJiUNEggwuIiQKIqVBaeRkaWzZSbxsbJyNv9bZj87bOmlVtVJ7rfJbvX37MW9\u002BM/Ob9\u002BAI/38w3RnW1tYEQzCiz7efC5n1DChVBeqdOvA8D/FgnM7a1JUpjdpu6VvhcrUcvpW5BUpd0aY/n9Z7\u002Bnqi95fvC3d/umugSUm5rtAZCL1RUOcWY6XBAZnhGJlwxB0sw8qEIbLH8SS7puC1vUkbbBlXy8QhSeqcBTbt2A59TzumM9g1/T2DN8U3iXKzfPll6aWkNtUwjbxH6AGe5YEjnDsYYG5fHbk6Tp0/zj9OLm0vJZ7kn0ClVclGxejK\u002BRPnpVwlF361/UrDgCYJkMnc17ksRwl22juJaqv61bPiMxB5EU71nzJOR06X\u002Bnx9BjqGzb1N6FgdzWf7AhaxLmztbQ2/KL0A3dDBcZxhta4OZgvZQKPToO8BhmEu4PwLus6ylCDyRSSxsbuR0Ns6YCRw6eNLBR/vu2mC\u002BT36n2w0G5OmYy6eOXFGq7frC8e8xwJD4aFPV3dWqU4/SMPSxLVPrp21HCuIWRQwqJs2a89UH1WbbgbL75ZBYAU4Lh4Hn8eXjfgjUxjBfCAQcEU9wBW8EEplt6KhBm4JsRTajbM3FNTOmPtgjpbSQB3e5q7n3LWuyNgVUGvXYEAcgNZ\u002B60dRFMf/6pyCdppaU2NFvRjCQcuGNHZobH4shpEL71vvkccRbMaOxcfiYbrGJaAisoQ9FPSfcNAtT/NPpfRCGlALMC1TklfldCqTGpz9dRZM24wiybe0u\u002BgalyDkC4Hf4we1oUK\u002Blqef/hYosI4lmcFMV85Fz4EoiMAQZqX/w/4Z1E6P9cYABdaRYJZxGCoyuOGeDJ6EfXsfSnqJphhKTaeGRj4agSAfhA5ehWoBcNIGAgO0bBNaTWPQWd9r9TXstnanHiYfPkLywXtL9\u002BL47a1lWd\u002Btj64rhwQX4xdBa2rw4OcHwLGchHklWIcFQgiwNpaO5aDtaU9Q59ReIIJsgZWlz9gt71AvXdO1UcdyBHRu4EYt0n8U7kab35hPlPfKlxeKC1KtUwvTbHq9veDlvOBhPcATnqZ\u002BO/VZ6ht31X/A4VmUWcvEsDXTi5uL8bniHJTrZVoud0djz4Of80/c\u002BfLOeNf8X\u002BOPswiMkrlvjqL60sHAjSNhH0pIJNHzqGt6hCP8GQC/AUWYxGG0O6mbAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-06-26T20:14:35.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Doctor.cs",
+              "RelativeDocumentMoniker": "Model\\Doctor.cs",
+              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Doctor.cs",
+              "RelativeToolTip": "Model\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T12:15:30.51Z"
             },
             {
               "$type": "Document",
@@ -531,63 +425,25 @@
               "RelativeDocumentMoniker": "Model\\ApiResult.cs",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\ApiResult.cs",
               "RelativeToolTip": "Model\\ApiResult.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T06:18:40.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T06:18:40.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Admin.cs",
-              "RelativeDocumentMoniker": "Model\\Admin.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Admin.cs",
-              "RelativeToolTip": "Model\\Admin.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T12:15:08.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Doctor.cs",
-              "RelativeDocumentMoniker": "Model\\Doctor.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Model\\Doctor.cs",
-              "RelativeToolTip": "Model\\Doctor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T12:15:30.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Authentication_window_admin.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_window_admin.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Authentication_window_admin.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Authentication_window_admin.xaml.cs",
-              "RelativeToolTip": "View\\Authentication_window_admin.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAtwEsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T21:38:05.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T04:37:26.647Z"
+              "WhenOpened": "2024-06-25T04:37:26.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "doctor_page.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\doctor_page.xaml",
               "RelativeDocumentMoniker": "View\\doctor_page.xaml",
@@ -598,18 +454,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ButtonForWindow.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ButtonForWindow.xaml",
               "RelativeDocumentMoniker": "ButtonForWindow.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ButtonForWindow.xaml",
               "RelativeToolTip": "ButtonForWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T18:22:18.062Z"
+              "WhenOpened": "2024-06-26T18:22:18.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainPagePatient.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml",
               "RelativeDocumentMoniker": "View\\MainPagePatient.xaml",
@@ -620,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MainPagePatient.xaml.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml.cs",
               "RelativeDocumentMoniker": "View\\MainPagePatient.xaml.cs",
@@ -632,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
@@ -644,155 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml",
-              "RelativeToolTip": "View\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-20T22:07:06.297Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 20,
-=======
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Profile_User.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Profile_User.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Profile_User.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Profile_User.xaml.cs",
-              "RelativeToolTip": "View\\Profile_User.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T20:14:18.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profile_User.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Profile_User.xaml",
-              "RelativeDocumentMoniker": "View\\Profile_User.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Profile_User.xaml",
-              "RelativeToolTip": "View\\Profile_User.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-24T20:14:12.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T16:33:05.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml.cs",
-              "RelativeToolTip": "View\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:27:54.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainWindow.xaml",
-              "RelativeToolTip": "View\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-20T22:07:06.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainPagePatient.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml.cs",
-              "RelativeDocumentMoniker": "View\\MainPagePatient.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml.cs",
-              "RelativeToolTip": "View\\MainPagePatient.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:28:10.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainPagePatient.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml",
-              "RelativeDocumentMoniker": "View\\MainPagePatient.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\MainPagePatient.xaml",
-              "RelativeToolTip": "View\\MainPagePatient.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:27:32.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "user_page.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\user_page.xaml.cs",
-              "RelativeDocumentMoniker": "View\\user_page.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\user_page.xaml.cs",
-              "RelativeToolTip": "View\\user_page.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:27:56.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "user_page.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\user_page.xaml",
-              "RelativeDocumentMoniker": "View\\user_page.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\user_page.xaml",
-              "RelativeToolTip": "View\\user_page.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:27:55.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "admin_page.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\admin_page.xaml.cs",
-              "RelativeDocumentMoniker": "View\\admin_page.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\admin_page.xaml.cs",
-              "RelativeToolTip": "View\\admin_page.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:28:00.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Window1.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Window1.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Window1.xaml.cs",
-              "RelativeToolTip": "View\\Window1.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:27:58.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
->>>>>>> Stashed changes
               "Title": "doctor_page.xaml.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\doctor_page.xaml.cs",
               "RelativeDocumentMoniker": "View\\doctor_page.xaml.cs",
@@ -804,51 +513,17 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 21,
               "Title": "Window1.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Window1.xaml",
               "RelativeDocumentMoniker": "View\\Window1.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Window1.xaml",
               "RelativeToolTip": "View\\Window1.xaml",
-=======
-              "DocumentIndex": 15,
-              "Title": "AppointmentDocWhiteViewModel.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\AppointmentDocWhiteViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\AppointmentDocWhiteViewModel.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\AppointmentDocWhiteViewModel.cs",
-              "RelativeToolTip": "ViewModel\\AppointmentDocWhiteViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:29:39.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppointmentDocBlackViewMode.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\AppointmentDocBlackViewMode.cs",
-              "RelativeDocumentMoniker": "ViewModel\\AppointmentDocBlackViewMode.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\AppointmentDocBlackViewMode.cs",
-              "RelativeToolTip": "ViewModel\\AppointmentDocBlackViewMode.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:29:38.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Appointment_Doc_White.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml",
-              "RelativeDocumentMoniker": "View\\Appointment_Doc_White.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml",
-              "RelativeToolTip": "View\\Appointment_Doc_White.xaml",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-23T16:36:39.294Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 22,
               "Title": "user_page.xaml.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\user_page.xaml.cs",
@@ -867,20 +542,11 @@
               "RelativeDocumentMoniker": "View\\user_page.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\user_page.xaml",
               "RelativeToolTip": "View\\user_page.xaml",
-=======
-              "DocumentIndex": 4,
-              "Title": "Appointment_Doc_Black.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_Black.xaml",
-              "RelativeDocumentMoniker": "View\\Appointment_Doc_Black.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_Black.xaml",
-              "RelativeToolTip": "View\\Appointment_Doc_Black.xaml",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:28:02.663Z"
+              "WhenOpened": "2024-06-23T13:27:55.549Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 24,
               "Title": "Profile_User.xaml",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Profile_User.xaml",
@@ -910,142 +576,9 @@
               "RelativeDocumentMoniker": "View\\Appointment_Doc_Black.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_Black.xaml",
               "RelativeToolTip": "View\\Appointment_Doc_Black.xaml",
-=======
-              "DocumentIndex": 12,
-              "Title": "Window1.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Window1.xaml",
-              "RelativeDocumentMoniker": "View\\Window1.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Window1.xaml",
-              "RelativeToolTip": "View\\Window1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T16:36:39.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Nana.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Nana.cs",
-              "RelativeDocumentMoniker": "ViewModel\\Nana.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Nana.cs",
-              "RelativeToolTip": "ViewModel\\Nana.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:12:14.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T21:30:22.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "admin_page.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\admin_page.xaml",
-              "RelativeDocumentMoniker": "View\\admin_page.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\admin_page.xaml",
-              "RelativeToolTip": "View\\admin_page.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:27:59.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ValidEntry.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\ValidEntry.xaml",
-              "RelativeDocumentMoniker": "Cards\\ValidEntry.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\ValidEntry.xaml",
-              "RelativeToolTip": "Cards\\ValidEntry.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:26.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Valid_entry_white.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Valid_entry_white.xaml",
-              "RelativeDocumentMoniker": "Cards\\Valid_entry_white.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Valid_entry_white.xaml",
-              "RelativeToolTip": "Cards\\Valid_entry_white.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:23.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Month.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Month.xaml.cs",
-              "RelativeDocumentMoniker": "Cards\\Month.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Month.xaml.cs",
-              "RelativeToolTip": "Cards\\Month.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:29:22.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Month.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Month.xaml",
-              "RelativeDocumentMoniker": "Cards\\Month.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Month.xaml",
-              "RelativeToolTip": "Cards\\Month.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:20.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Info_card_white.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Info_card_white.xaml.cs",
-              "RelativeDocumentMoniker": "Cards\\Info_card_white.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Info_card_white.xaml.cs",
-              "RelativeToolTip": "Cards\\Info_card_white.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T15:00:02.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DoctorCard.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\DoctorCard.xaml.cs",
-              "RelativeDocumentMoniker": "Cards\\DoctorCard.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\DoctorCard.xaml.cs",
-              "RelativeToolTip": "Cards\\DoctorCard.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:29:19.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DoctorCard.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\DoctorCard.xaml",
-              "RelativeDocumentMoniker": "Cards\\DoctorCard.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\DoctorCard.xaml",
-              "RelativeToolTip": "Cards\\DoctorCard.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:17.039Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Info_card_white.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Info_card_white.xaml",
-              "RelativeDocumentMoniker": "Cards\\Info_card_white.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Info_card_white.xaml",
-              "RelativeToolTip": "Cards\\Info_card_white.xaml",
->>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:28:02.663Z"
+              "WhenOpened": "2024-06-23T13:28:02.663Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1061,7 +594,6 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 26,
               "Title": "Api.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Helpers\\Api.cs",
@@ -1069,25 +601,12 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Helpers\\Api.cs",
               "RelativeToolTip": "ViewModel\\Helpers\\Api.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAYwEsAAABNAAAA",
-=======
-              "DocumentIndex": 28,
-              "Title": "Archival_recording_white.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Archival_recording_white.xaml.cs",
-              "RelativeDocumentMoniker": "Cards\\Archival_recording_white.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Archival_recording_white.xaml.cs",
-              "RelativeToolTip": "Cards\\Archival_recording_white.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T21:16:47.487Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 48,
-=======
-              "DocumentIndex": 34,
->>>>>>> Stashed changes
               "Title": "ValidEntry.xaml.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\ValidEntry.xaml.cs",
               "RelativeDocumentMoniker": "Cards\\ValidEntry.xaml.cs",
@@ -1099,46 +618,7 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 33,
-=======
-              "DocumentIndex": 35,
-              "Title": "Valid_entry_white.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Valid_entry_white.xaml.cs",
-              "RelativeDocumentMoniker": "Cards\\Valid_entry_white.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Valid_entry_white.xaml.cs",
-              "RelativeToolTip": "Cards\\Valid_entry_white.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:29:24.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Analysis_white.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Analysis_white.xaml.cs",
-              "RelativeDocumentMoniker": "Cards\\Analysis_white.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Analysis_white.xaml.cs",
-              "RelativeToolTip": "Cards\\Analysis_white.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:29:11.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Archival_recording_white.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Archival_recording_white.xaml",
-              "RelativeDocumentMoniker": "Cards\\Archival_recording_white.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Archival_recording_white.xaml",
-              "RelativeToolTip": "Cards\\Archival_recording_white.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:13.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
->>>>>>> Stashed changes
               "Title": "ApiHelper.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Helpers\\ApiHelper.cs",
               "RelativeDocumentMoniker": "ViewModel\\Helpers\\ApiHelper.cs",
@@ -1150,7 +630,6 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 49,
               "Title": "Valid_entry_white.xaml.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Valid_entry_white.xaml.cs",
@@ -1181,16 +660,9 @@
               "RelativeDocumentMoniker": "Cards\\Archival_recording_white.xaml",
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Archival_recording_white.xaml",
               "RelativeToolTip": "Cards\\Archival_recording_white.xaml",
-=======
-              "DocumentIndex": 31,
-              "Title": "doctor_page.xaml",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\doctor_page.xaml",
-              "RelativeDocumentMoniker": "View\\doctor_page.xaml",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\doctor_page.xaml",
-              "RelativeToolTip": "View\\doctor_page.xaml",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:13.091Z"
+              "WhenOpened": "2024-06-23T13:29:13.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1206,7 +678,6 @@
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 30,
               "Title": "Nana.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Nana.cs",
@@ -1214,25 +685,12 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Nana.cs",
               "RelativeToolTip": "ViewModel\\Nana.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-=======
-              "DocumentIndex": 32,
-              "Title": "Appointment_Doc_White.xaml.cs",
-              "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Appointment_Doc_White.xaml.cs",
-              "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\Appointment_Doc_White.xaml.cs",
-              "RelativeToolTip": "View\\Appointment_Doc_White.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAAAAAA",
->>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T12:12:14.415Z"
             },
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 29,
-=======
-              "DocumentIndex": 33,
->>>>>>> Stashed changes
               "Title": "BindingHelper.cs",
               "DocumentMoniker": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\ViewModel\\Helpers\\BindingHelper.cs",
               "RelativeDocumentMoniker": "ViewModel\\Helpers\\BindingHelper.cs",
@@ -1311,7 +769,8 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\View\\admin_page.xaml",
               "RelativeToolTip": "View\\admin_page.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:27:59.496Z"
+              "WhenOpened": "2024-06-23T13:27:59.496Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1322,7 +781,8 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\ValidEntry.xaml",
               "RelativeToolTip": "Cards\\ValidEntry.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:26.407Z"
+              "WhenOpened": "2024-06-23T13:29:26.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1333,7 +793,8 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Valid_entry_white.xaml",
               "RelativeToolTip": "Cards\\Valid_entry_white.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:23.301Z"
+              "WhenOpened": "2024-06-23T13:29:23.301Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1356,7 +817,8 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Month.xaml",
               "RelativeToolTip": "Cards\\Month.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:20.835Z"
+              "WhenOpened": "2024-06-23T13:29:20.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1391,7 +853,8 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\DoctorCard.xaml",
               "RelativeToolTip": "Cards\\DoctorCard.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:17.039Z"
+              "WhenOpened": "2024-06-23T13:29:17.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1402,7 +865,8 @@
               "ToolTip": "D:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\github\\EMIAS\\Cards\\Info_card_white.xaml",
               "RelativeToolTip": "Cards\\Info_card_white.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T13:29:20.062Z"
+              "WhenOpened": "2024-06-23T13:29:20.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1431,7 +895,7 @@
           ]
         },
         {
-          "DockedWidth": 200,
+          "DockedHeight": 62,
           "SelectedChildIndex": -1,
           "Children": [
             {
