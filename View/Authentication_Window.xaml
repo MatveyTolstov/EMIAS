@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:EMIAS"
         mc:Ignorable="d"
-        Title="Authentication_Window" Height="220" Width="400" MouseDown="Window_MouseDown">
+        Title="Authentication_Window" Height="220" Width="400" WindowStartupLocation="CenterScreen" >
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -52,9 +52,9 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBox  x:Name="NumberPolicyButton" materialDesign:HintAssist.Hint="Номер полиса" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="10,0,10,0"/>
-            <Button  x:Name="SignButton" Grid.Row="1" Grid.Column="0" Background="#007BFE" Content="Войти" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" />
-            <Button  x:Name="DoctorButton" Grid.Row="1" Grid.Column="1" Background="#007BFE" Content="Я врач" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26"/>
+            <TextBox  x:Name="NumberPolicyButton"  materialDesign:HintAssist.Hint="Номер полиса" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" BorderThickness="1" Margin="10,0,10,0"/>
+            <Button  x:Name="SignButton" Grid.Row="1" Grid.Column="0" Style="{StaticResource BlueBottom}" Content="Войти" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" />
+            <Button  x:Name="DoctorButton" Grid.Row="1" Style="{StaticResource BlueBottom}" Grid.Column="1"  Content="Я врач" Margin="15,0,15,0"  MaxHeight="26" Click="DoctorButton_Click"/>
         </Grid>
     </Grid>
 </Window>

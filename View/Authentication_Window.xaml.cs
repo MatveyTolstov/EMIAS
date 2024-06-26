@@ -23,5 +23,12 @@ namespace EMIAS
         {
             InitializeComponent();
         }
+
+        private void DoctorButton_Click(object sender, RoutedEventArgs e)
+        {
+            Authentication_window_admin authentication_Window_Admin = new Authentication_window_admin();
+            authentication_Window_Admin.Show();
+            Close();
+        }
     }
 }
