@@ -96,7 +96,12 @@
     <Compile Include="Cards\Valid_entry_white.xaml.cs" />
     <Compile Include="Model\Admin.cs" />
     <Compile Include="Model\ApiResult.cs" />
+    <Compile Include="Model\Appointment.cs" />
+    <Compile Include="Model\Direction.cs" />
     <Compile Include="Model\Doctor.cs" />
+    <Compile Include="Model\Patient.cs" />
+    <Compile Include="Model\Speciality.cs" />
+    <Compile Include="Model\Statuss.cs" />
     <Compile Include="ViewModel\Helpers\Api.cs" />
     <Compile Include="View\Authentication_Window.xaml.cs" />
     <Compile Include="View\Authentication_window_admin.xaml.cs" />
