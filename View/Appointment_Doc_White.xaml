@@ -19,7 +19,7 @@
 
 
         <!-- ВЕРХНЯЯ ЧАСТЬ -->
-        <StackPanel Background="#FF007BFE" Grid.Column="0" >
+        <StackPanel Background="#2196F3" Grid.Column="0" >
             <Grid Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
