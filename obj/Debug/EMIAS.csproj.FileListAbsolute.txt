@@ -213,134 +213,82 @@ C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\EMIAS.pdb
 C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\ButtonForWindow.baml
 C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\View\MedCard.g.cs
 C:\Users\HP\Source\Repos\EMIASWork\obj\Debug\View\MedCard.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.csproj.AssemblyReference.cache
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\ButtonForWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\admin_page.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Appointment_Doc_Black.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Appointment_Doc_White.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Authentication_Window.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Authentication_window_admin.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\doctor_page.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainPagePatient.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Profile_User.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\user_page.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Window1.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\App.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS_Content.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS_MarkupCompile.cache
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS_MarkupCompile.lref
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.exe
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.pdb
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\DoctorMainWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AdminDoctorWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AdminPatientWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AdminWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AuthorizeADWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AuthorizePatientWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\DoctorMainWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainPatientPage.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainPatientWindow.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MeddicalCardResearchPage.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MedicalCardAnalysPage.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MedicalCardAppointmentPage.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\ProfilePatientPage.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\App.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AdminDoctorWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AdminPatientWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AdminWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\admin_page.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Appointment_Doc_Black.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Appointment_Doc_White.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Authentication_Window.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Authentication_window_admin.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AuthorizeADWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\AuthorizePatientWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\doctor_page.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainPagePatient.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainPatientPage.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainPatientWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MainWindow.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MeddicalCardResearchPage.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MedicalCardAnalysPage.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\MedicalCardAppointmentPage.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\ProfilePatientPage.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Profile_User.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\user_page.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Window1.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\AnalysisRichTextBoxView.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\AppointmentRichTextBoxView.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CompletedAppointment.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CurrentAppointment.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\DaySquareControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\HoursSquareControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\MissedAppointment.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ResearchRichTextBoxView.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\AnalysisRichTextBoxView.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Analysis_white.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\AppointmentRichTextBoxView.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Archival_recording_white.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ArchiveAppointmentControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ArchiveMonthControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CompletedAppointment.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CurrentAppointment.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CurrentAppointmentControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CurrentMonthControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\DaySquareControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\DoctorCard.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\DoctorControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\HoursSquareControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Info_card_white.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\MissedAppointment.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Month.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ResearchRichTextBoxView.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\SpecialistSquareControl.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ValidEntry.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Valid_entry_white.g.cs
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Analysis_white.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Archival_recording_white.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ArchiveAppointmentControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ArchiveMonthControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CurrentAppointmentControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\CurrentMonthControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\DoctorCard.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\DoctorControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Info_card_white.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Month.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\SpecialistSquareControl.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\ValidEntry.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\View\Cards\Valid_entry_white.baml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\EMIAS.exe.config
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\EMIAS.exe
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\EMIAS.pdb
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\MaterialDesignThemes.Wpf.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\Newtonsoft.Json.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Converters.Wpf.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Core.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Css.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Dom.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Model.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Rendering.Wpf.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Runtime.Wpf.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\ShimSkiaSharp.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\Microsoft.Xaml.Behaviors.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\MaterialDesignColors.dll
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\MaterialDesignThemes.Wpf.pdb
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\MaterialDesignThemes.Wpf.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\Newtonsoft.Json.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Converters.Wpf.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Core.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Css.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Dom.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Model.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Rendering.Wpf.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\SharpVectors.Runtime.Wpf.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\Microsoft.Xaml.Behaviors.pdb
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\Microsoft.Xaml.Behaviors.xml
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\bin\Debug\MaterialDesignColors.pdb
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.g.resources
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.Properties.Resources.resources
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.csproj.GenerateResource.cache
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
-C:\Users\ekono\OneDrive\Рабочий стол\Новая папка\obj\Debug\EMIAS.csproj.CopyComplete
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.AssemblyReference.cache
+D:\Рабочий стол\github\EMIAS\obj\Debug\ButtonForWindow.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Analysis_white.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Archival_recording_white.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\DoctorCard.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Info_card_white.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Month.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\ValidEntry.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Valid_entry_white.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\admin_page.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Appointment_Doc_Black.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Appointment_Doc_White.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Authentication_Window.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Authentication_window_admin.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\doctor_page.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\MainPagePatient.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\MainWindow.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Profile_User.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\user_page.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Window1.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\App.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS_Content.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS_MarkupCompile.cache
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS_MarkupCompile.lref
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.exe
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.pdb
+D:\Рабочий стол\github\EMIAS\bin\Debug\EMIAS.exe.config
+D:\Рабочий стол\github\EMIAS\bin\Debug\EMIAS.exe
+D:\Рабочий стол\github\EMIAS\bin\Debug\EMIAS.pdb
+D:\Рабочий стол\github\EMIAS\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\Newtonsoft.Json.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Converters.Wpf.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Core.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Css.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Dom.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Model.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Rendering.Wpf.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Runtime.Wpf.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\ShimSkiaSharp.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\MaterialDesignColors.dll
+D:\Рабочий стол\github\EMIAS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Рабочий стол\github\EMIAS\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\Newtonsoft.Json.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Converters.Wpf.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Core.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Css.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Dom.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Model.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Rendering.Wpf.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\SharpVectors.Runtime.Wpf.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Рабочий стол\github\EMIAS\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Рабочий стол\github\EMIAS\bin\Debug\MaterialDesignColors.pdb
+D:\Рабочий стол\github\EMIAS\obj\Debug\App.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Analysis_white.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Archival_recording_white.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\DoctorCard.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Info_card_white.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Month.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\ValidEntry.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\Cards\Valid_entry_white.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\admin_page.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Appointment_Doc_Black.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Appointment_Doc_White.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Authentication_Window.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Authentication_window_admin.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\doctor_page.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\MainPagePatient.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\MainWindow.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Profile_User.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\user_page.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\Window1.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.g.resources
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.Properties.Resources.resources
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.Up2Date

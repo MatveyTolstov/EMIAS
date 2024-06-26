@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:EMIAS"
         mc:Ignorable="d"
-        Title="Authentication_window_admin" Height="220" Width="400">
+        Title="Authentication_window_admin" Height="220" Width="400" WindowStartupLocation="CenterScreen">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -17,20 +17,13 @@
         </Grid.RowDefinitions>
         <Grid Background="#007BFE" Grid.Row="0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column ="1">
-                <Button x:Name="СollapseButton" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
-                    <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0">
-                        <svgc:SvgViewbox Source="/Icons/wrap.svg"/>
-                    </UserControl>
+                <Button Style="{StaticResource MinimizeButtonStyle}" IsCancel="True" Padding="0">
+
                 </Button>
-                <Button x:Name="ExpandButton" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
-                    <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0" Cursor="">
-                        <svgc:SvgViewbox Source="/Icons/full.svg"/>
-                    </UserControl>
+                <Button Style="{StaticResource MaximizeButtonStyle}" IsCancel="True" Padding="0">
+
                 </Button>
-                <Button  x:Name="ClosedButton" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent"  FontSize="10" Padding="0" Foreground="Black">
-                    <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0">
-                        <svgc:SvgViewbox Source="/Icons/close.svg"/>
-                    </UserControl>
+                <Button  Style="{StaticResource CloseButtonStyle}" Margin="0 0 5 0">
                 </Button>
             </StackPanel>
             <Grid Grid.Row="0">
@@ -53,10 +46,10 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <TextBox x:Name="NumberEployerTextBlock" materialDesign:HintAssist.Hint="Номер сотрудника" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="15,0,15,0"/>
-            <PasswordBox x:Name="PasswordPasswordBlock" materialDesign:HintAssist.Hint="Пароль" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="15,0,15,0"/>
-            <Button x:Name="SignButton" Grid.Row="2" Grid.Column="0" Background="#007BFE" Content="Войти" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" />
-            <Button x:Name="PatientButton" Grid.Row="2" Grid.Column="1" Background="#007BFE" Content="Я пациент" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26"/>
+            <TextBox x:Name="LogTextBox"  materialDesign:HintAssist.Hint="Номер сотрудника" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="15,0,15,0" BorderThickness="1"/>
+            <PasswordBox x:Name="PasswordBox"    materialDesign:HintAssist.Hint="Пароль" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Margin="15,0,15,0" BorderThickness="1"/>
+            <Button      Grid.Row="2" Style="{StaticResource BlueBottom}" Grid.Column="0" Background="#007BFE" Content="Войти" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" Click="Button_Click" />
+            <Button  Grid.Row="2" Style="{StaticResource BlueBottom}" Grid.Column="1" Background="#007BFE" Content="Я пациент" Margin="15,0,15,0" BorderBrush="#007BFE" MaxHeight="26" RenderTransformOrigin="0.5,0.618" Click="Button_Click_1"/>
         </Grid>
     </Grid>
 </Window>

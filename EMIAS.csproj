@@ -87,71 +87,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="View\Cards\AnalysisRichTextBoxView.xaml.cs" />
-    <Compile Include="View\Cards\Analysis_white.xaml.cs" />
-    <Compile Include="View\Cards\AppointmentRichTextBoxView.xaml.cs" />
-    <Compile Include="View\Cards\Archival_recording_white.xaml.cs" />
-    <Compile Include="View\Cards\ArchiveAppointmentControl.xaml.cs" />
-    <Compile Include="View\Cards\ArchiveMonthControl.xaml.cs" />
-    <Compile Include="View\Cards\CompletedAppointment.xaml.cs" />
-    <Compile Include="View\Cards\CurrentAppointment.xaml.cs" />
-    <Compile Include="View\Cards\CurrentAppointmentControl.xaml.cs" />
-    <Compile Include="View\Cards\CurrentMonthControl.xaml.cs" />
-    <Compile Include="View\Cards\DaySquareControl.xaml.cs">
-      <DependentUpon>DaySquareControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Cards\DoctorCard.xaml.cs" />
-    <Compile Include="View\Cards\DoctorControl.xaml.cs" />
-    <Compile Include="View\Cards\HoursSquareControl.xaml.cs" />
-    <Compile Include="View\Cards\Info_card_white.xaml.cs" />
-    <Compile Include="View\Cards\MissedAppointment.xaml.cs" />
-    <Compile Include="View\Cards\Month.xaml.cs" />
-    <Compile Include="View\Cards\ResearchRichTextBoxView.xaml.cs" />
-    <Compile Include="View\Cards\SpecialistSquareControl.xaml.cs" />
-    <Compile Include="View\Cards\ValidEntry.xaml.cs" />
-    <Compile Include="View\Cards\Valid_entry_white.xaml.cs" />
-    <Compile Include="Model\AnalysDocument.cs" />
-    <Compile Include="Model\AnalysisRichTextBox.cs" />
+    <Compile Include="Cards\Analysis_white.xaml.cs" />
+    <Compile Include="Cards\Archival_recording_white.xaml.cs" />
+    <Compile Include="Cards\DoctorCard.xaml.cs" />
+    <Compile Include="Cards\Info_card_white.xaml.cs" />
+    <Compile Include="Cards\Month.xaml.cs" />
+    <Compile Include="Cards\ValidEntry.xaml.cs" />
+    <Compile Include="Cards\Valid_entry_white.xaml.cs" />
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\ApiResult.cs" />
     <Compile Include="Model\Appointment.cs" />
-    <Compile Include="Model\Appointment1.cs" />
-    <Compile Include="Model\AppointmentDocument.cs" />
-    <Compile Include="Model\AppointmentRichTextBox.cs" />
     <Compile Include="Model\Direction.cs" />
-    <Compile Include="Model\Direction1.cs" />
-    <Compile Include="Model\DirectionsWithSpecialistDetails.cs" />
     <Compile Include="Model\Doctor.cs" />
-    <Compile Include="Model\Doctor1.cs" />
-    <Compile Include="Model\DoctorWithSpecialityName.cs" />
-    <Compile Include="Model\LoginModelAdmin.cs" />
-    <Compile Include="Model\LoginModelDoctor.cs" />
     <Compile Include="Model\Patient.cs" />
-    <Compile Include="Model\ResearchDocument.cs" />
-    <Compile Include="Model\ResearchRichTextBox.cs" />
     <Compile Include="Model\Speciality.cs" />
-    <Compile Include="Model\Speciality1.cs" />
-    <Compile Include="Model\UserChoose.cs" />
-    <Compile Include="ViewModel\MakeAppointmentSpecialityViewModel.cs" />
-    <Compile Include="View\AdminDoctorWindow.xaml.cs" />
-    <Compile Include="View\AdminPatientWindow.xaml.cs" />
-    <Compile Include="View\AdminWindow.xaml.cs" />
+    <Compile Include="Model\Statuss.cs" />
+    <Compile Include="ViewModel\Helpers\Api.cs" />
     <Compile Include="View\Authentication_Window.xaml.cs" />
     <Compile Include="View\Authentication_window_admin.xaml.cs" />
-    <Compile Include="View\AuthorizeADWindow.xaml.cs">
-      <DependentUpon>AuthorizeADWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\AuthorizePatientWindow.xaml.cs">
-      <DependentUpon>AuthorizePatientWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\DoctorMainWindow.xaml.cs" />
     <Compile Include="View\doctor_page.xaml.cs" />
     <Compile Include="View\MainPagePatient.xaml.cs" />
-    <Compile Include="View\MainPatientPage.xaml.cs" />
-    <Compile Include="View\MainPatientWindow.xaml.cs" />
     <Compile Include="View\MainWindow.xaml.cs" />
-    <Compile Include="View\MeddicalCardResearchPage.xaml.cs" />
-    <Compile Include="View\MedicalCardAnalysPage.xaml.cs" />
-    <Compile Include="View\MedicalCardAppointmentPage.xaml.cs" />
-    <Compile Include="View\ProfilePatientPage.xaml.cs" />
     <Compile Include="View\Profile_User.xaml.cs" />
     <Compile Include="View\user_page.xaml.cs" />
     <Compile Include="View\Window1.xaml.cs" />
@@ -159,99 +115,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Cards\AnalysisRichTextBoxView.xaml">
+    <Page Include="Cards\Analysis_white.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Cards\Analysis_white.xaml">
+    <Page Include="Cards\Archival_recording_white.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Cards\AppointmentRichTextBoxView.xaml">
+    <Page Include="Cards\DoctorCard.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Cards\Archival_recording_white.xaml">
+    <Page Include="Cards\Info_card_white.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Cards\ArchiveAppointmentControl.xaml">
+    <Page Include="Cards\Month.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Cards\ArchiveMonthControl.xaml">
+    <Page Include="Cards\ValidEntry.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Cards\CompletedAppointment.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\CurrentAppointment.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\CurrentAppointmentControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\CurrentMonthControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\DaySquareControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\DoctorCard.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\DoctorControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\HoursSquareControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\Info_card_white.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\MissedAppointment.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\Month.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\ResearchRichTextBoxView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\SpecialistSquareControl.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\ValidEntry.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Cards\Valid_entry_white.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\AdminDoctorWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\AdminPatientWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\AdminWindow.xaml">
+    <Page Include="Cards\Valid_entry_white.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -292,18 +180,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\AuthorizeADWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\AuthorizePatientWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\DoctorMainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="View\doctor_page.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -312,31 +188,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\MainPatientPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\MainPatientWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="View\MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\MeddicalCardResearchPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\MedicalCardAnalysPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\MedicalCardAppointmentPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\ProfilePatientPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
