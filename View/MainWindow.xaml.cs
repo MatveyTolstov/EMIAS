@@ -33,6 +33,7 @@ namespace EMIAS
         {
             InitializeComponent();
             PagesFrame.Content = new MainPagePatient();
+            MainFrame.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
         }
 
 
@@ -71,6 +72,45 @@ namespace EMIAS
             aut.Show();
             Close();
 
+        }
+
+        private void NavigateToPage(object sender, RoutedEventArgs e)
+        {
+            if (sender is TreeViewItem selectedItem)
+            {
+                string page = selectedItem.Tag.ToString();
+                switch (page)
+                {
+                    case "MainWindow":
+                        MainFrame.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
+                        break;
+                    case "Appointment":
+                        MainFrame.Navigate(new Uri("Appointment.xaml", UriKind.Relative));
+                        break;
+                    case "PagePatient":
+                        MainFrame.Navigate(new Uri("PagePatient.xaml", UriKind.Relative));
+                        break;
+                    case "ChoosingDoctor":
+                        MainFrame.Navigate(new Uri("ChoosingDoctor.xaml", UriKind.Relative));
+                        break;
+                    case "MedcardPage":
+                        MainFrame.Navigate(new Uri("MedcardPage.xaml", UriKind.Relative));
+                        break;
+                    case "AnalisisPage":
+                        MainFrame.Navigate(new Uri("AnalisisPage.xaml", UriKind.Relative));
+                        break;
+                    case "MedcardResearchPage":
+                        MainFrame.Navigate(new Uri("MedcardResearchPage.xaml", UriKind.Relative));
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+
+        private void NavigateToPtofile_Click(object sender, RoutedEventArgs e)
+        {
+            GearFrame.Navigate(new Profile_User());
         }
 
     }

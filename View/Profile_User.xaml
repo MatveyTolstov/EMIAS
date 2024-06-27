@@ -130,7 +130,7 @@
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button Margin="6" Background="#007BFE" Content="Сохранить изменения" Foreground="White"></Button>
+                <Button Margin="6" Background="#007BFE" Content="Сохранить изменения" Foreground="White" ></Button>
                 <Button Margin="6" Grid.Column="1" Background="#007BFE" Content="Добавить новый аккаунт" Foreground="White"></Button>
                 <Button Margin="6" Grid.Column="2" Background="#FE0000" Content="Выйти из аккаунта" Foreground="White"></Button>
             </Grid>

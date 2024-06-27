@@ -30,15 +30,16 @@
             <WrapPanel Orientation="Vertical" >
 
                 <TreeViewItem Header="Главная" Foreground="White">
-                    <TreeViewItem Header="Записи и направления" Foreground="White"/>
-                    <TreeViewItem Header="Рецепты" Foreground="White"/>
-                    <TreeViewItem Header="Диспансеризация" Foreground="White"/>
+                    <TreeViewItem Header="Записи и направления" Foreground="White" Selected="NavigateToPage" Tag="Appointment"/>
+                    <TreeViewItem Header="Рецепты" Foreground="White" Selected="NavigateToPage" Tag="PagePatient"/>
+                    <TreeViewItem Header="Диспансеризация" Foreground="White" Selected="NavigateToPage" Tag="ChoosingDoctor"/>
                 </TreeViewItem>
                 <TreeViewItem Header="Медкарта"  Foreground="White">
-                    <TreeViewItem Header="Приемы" Foreground="White" />
-                    <TreeViewItem Header="Анализы" Foreground="White"/>
-                    <TreeViewItem Header="Исследования" Foreground="White"/>
+                    <TreeViewItem Header="Приемы" Foreground="White" Selected="NavigateToPage" Tag="MedcardPage"/>
+                    <TreeViewItem Header="Анализы" Foreground="White" Selected="NavigateToPage" Tag="AnalisisPage"/>
+                    <TreeViewItem Header="Исследования" Foreground="White" Selected="NavigateToPage" Tag="MedcardResearchPage"/>
                 </TreeViewItem>
+                <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden"/>
             </WrapPanel>
         </Grid>
         <Grid Grid.Row="2" Background="#FF007BFE"></Grid>
@@ -62,11 +63,13 @@
                     </Button.Background>
                 </Button>
             </WrapPanel>
-            <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0" HorizontalAlignment="Right" Margin="0 0 10 0">
-                <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="24" Width="24">
-                    <svgc:SvgViewbox Source="/Icons/settings.svg"/>
+            <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0" HorizontalAlignment="Right" Margin="0 0 10 0" Click="NavigateToPtofile_Click">
+                <UserControl HorizontalAlignment="Center" VerticalAlignment="Center" Height="30">
+                    <Image Source="/img/gear.png" Height="30" />
                 </UserControl>
+
             </Button>
+            <Frame x:Name="GearFrame" NavigationUIVisibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,50,0,0"/>
         </Grid>
         <Frame x:Name="PagesFrame" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Margin="20 0 0 0" Cursor=""></Frame>
     </Grid>
