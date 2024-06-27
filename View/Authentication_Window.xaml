@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:EMIAS"
         mc:Ignorable="d"
-        Title="Authentication_Window" Height="220" Width="400" WindowStartupLocation="CenterScreen" >
+        Title="Authentication_Window" Height="220" Width="400" WindowStartupLocation="CenterScreen" Mouse.MouseDown="Window_MouseLeftButtonDown">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -17,20 +17,21 @@
         </Grid.RowDefinitions>
         <Grid Background="#007BFE" Grid.Row="0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column ="1">
-                <Button x:Name="СollapseButton" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
-                    <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0">
-                        <svgc:SvgViewbox Source="/Icons/wrap.svg"/>
-                    </UserControl>
+                <Button Style="{StaticResource MinimizeButtonStyle}" IsCancel="True" Padding="0" Click="litle_Click" >
+
                 </Button>
-                <Button x:Name="ExpandButton" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
-                    <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0" Cursor="">
-                        <svgc:SvgViewbox Source="/Icons/full.svg"/>
-                    </UserControl>
+                <Button Style="{StaticResource MaximizeButtonStyle}" IsCancel="True" Padding="0" Click="full_Click" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="1799.959"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+
                 </Button>
-                <Button  x:Name="ClosedButton" Width="30" Height="30" BorderBrush="Transparent" Background="Transparent"  FontSize="10" Padding="0" Foreground="Black">
-                    <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0">
-                        <svgc:SvgViewbox Source="/Icons/close.svg"/>
-                    </UserControl>
+                <Button  Style="{StaticResource CloseButtonStyle}" Margin="0 0 5 0" Click="exit_Click">
                 </Button>
             </StackPanel>
             <Grid Grid.Row="0">

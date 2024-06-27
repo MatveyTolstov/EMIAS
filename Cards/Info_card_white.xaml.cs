@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CardsLIB
+namespace EMIAS.Cards
 {
     /// <summary>
     /// Логика взаимодействия для Change_specialist_white.xaml

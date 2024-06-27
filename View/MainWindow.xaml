@@ -7,7 +7,7 @@
         xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
         xmlns:local="clr-namespace:EMIAS" 
         mc:Ignorable="d"
-        Title="MainWindow" Style="{StaticResource WindowDefault}" Height="850" Width="1500" MouseDown="Window_MouseDown">
+        Title="MainWindow" Style="{StaticResource WindowDefault}" Height="850" Width="1500" Mouse.MouseDown="Window_MouseLeftButtonDown">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
     </WindowChrome.WindowChrome>
@@ -26,7 +26,7 @@
             <TextBlock Text="в. 1.0" FontSize="20" FontWeight="Medium" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="10"></TextBlock>
             <Separator VerticalAlignment="Bottom" Background="White" Margin="10 0 10 0" Height="1"></Separator>
         </Grid>
-        <Grid Background="#2196F3" Grid.Column="0" Grid.Row="1">
+        <Grid Background="#FF007BFE" Grid.Column="0" Grid.Row="1">
             <WrapPanel Orientation="Vertical" >
 
                 <TreeViewItem Header="Главная" Foreground="White">
@@ -41,31 +41,26 @@
                 </TreeViewItem>
             </WrapPanel>
         </Grid>
-        <Grid Grid.Row="2" Background="#2196F3"></Grid>
+        <Grid Grid.Row="2" Background="#FF007BFE"></Grid>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="20 0 0 0" Text="Запись" Foreground="Black" VerticalAlignment="Center" FontSize="20"></TextBlock>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column ="1">
-            <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
-                <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0">
-                    <svgc:SvgViewbox Source="/Icons/wrap.svg"/>
-                </UserControl>
-            </Button>
-            <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0">
-                <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0" Cursor="">
-                    <svgc:SvgViewbox Source="/img/full.svg"/>
-                </UserControl>
-            </Button>
-            <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent"  FontSize="10" Padding="0" Foreground="Black">
-                <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="12" Margin="0 0 15 0">
-                    <svgc:SvgViewbox Source="/Icons/close.svg"/>
-                </UserControl>
-            </Button>
-        </StackPanel>
+        <Grid Grid.Column="1">
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 0 5 0">
+                <Button Style="{StaticResource WhiteMinimizeButtonStyle}" Margin="0 0 0 0" Click="Button_Click_2"/>
+                <Button Style="{StaticResource WhiteMaximizeButtonStyle}" Margin="0 0 0 0" Click="Button_Click_1"/>
+                <Button Style="{StaticResource WhiteCloseButtonStyle}" Margin="0 0 0 0" Click="Button_Click"/>
+            </StackPanel>
+        </Grid>
 
         <Grid Grid.Row="2">
             <Separator VerticalAlignment="Top" Background="White" Margin="10 0 10 0" Height="1"></Separator>
             <WrapPanel VerticalAlignment="Center">
                 <TextBlock  Margin="10" Text="Полис ОМС: " VerticalAlignment="Center" ></TextBlock>
-                <ComboBox></ComboBox>
+                <ComboBox Width="90"></ComboBox>
+                <Button x:Name="gear" Margin="100 0 0 0">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/img/gear.png" Stretch="Uniform"/>
+                    </Button.Background>
+                </Button>
             </WrapPanel>
             <Button Width="30" Height="30" BorderBrush="Transparent" Background="Transparent" Foreground="Black" IsCancel="True" Padding="0" HorizontalAlignment="Right" Margin="0 0 10 0">
                 <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" Height="24" Width="24">

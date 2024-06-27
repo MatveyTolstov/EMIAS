@@ -87,11 +87,28 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Cards\Analis.xaml.cs">
+      <DependentUpon>Analis.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cards\Analysis_white.xaml.cs" />
-    <Compile Include="Cards\Archival_recording_white.xaml.cs" />
+    <Compile Include="Cards\Day.xaml.cs">
+      <DependentUpon>Day.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cards\DoctorCard.xaml.cs" />
+    <Compile Include="Cards\DoctorInfoAddr.xaml.cs">
+      <DependentUpon>DoctorInfoAddr.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cards\Info_card_white.xaml.cs" />
     <Compile Include="Cards\Month.xaml.cs" />
+    <Compile Include="Cards\Reception.xaml.cs">
+      <DependentUpon>Reception.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cards\Research.xaml.cs">
+      <DependentUpon>Research.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cards\Time.xaml.cs">
+      <DependentUpon>Time.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Cards\ValidEntry.xaml.cs" />
     <Compile Include="Cards\Valid_entry_white.xaml.cs" />
     <Compile Include="Model\Admin.cs" />
@@ -103,11 +120,26 @@
     <Compile Include="Model\Speciality.cs" />
     <Compile Include="Model\Statuss.cs" />
     <Compile Include="ViewModel\Helpers\Api.cs" />
+    <Compile Include="View\AnalisisPage.xaml.cs">
+      <DependentUpon>AnalisisPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AppointmentPage.xaml.cs">
+      <DependentUpon>AppointmentPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Authentication_Window.xaml.cs" />
     <Compile Include="View\Authentication_window_admin.xaml.cs" />
+    <Compile Include="View\ChoosingDoctor.xaml.cs">
+      <DependentUpon>ChoosingDoctor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\doctor_page.xaml.cs" />
     <Compile Include="View\MainPagePatient.xaml.cs" />
     <Compile Include="View\MainWindow.xaml.cs" />
+    <Compile Include="View\MedcardPage.xaml.cs">
+      <DependentUpon>MedcardPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MedcardResearchPage.xaml.cs">
+      <DependentUpon>MedcardResearchPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Profile_User.xaml.cs" />
     <Compile Include="View\user_page.xaml.cs" />
     <Compile Include="View\Window1.xaml.cs" />
@@ -115,17 +147,25 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Cards\Analis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Cards\Analysis_white.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Cards\Archival_recording_white.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Cards\Day.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cards\DoctorCard.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cards\DoctorInfoAddr.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cards\Info_card_white.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -134,6 +174,18 @@
     <Page Include="Cards\Month.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cards\Reception.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cards\Research.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cards\Time.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cards\ValidEntry.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -147,14 +199,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Appointment_Doc_Black.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Appointment_Doc_White.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -166,12 +210,14 @@
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\Nana.cs" />
     <Compile Include="View\admin_page.xaml.cs" />
-    <Compile Include="View\Appointment_Doc_Black.xaml.cs">
-      <DependentUpon>Appointment_Doc_Black.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Appointment_Doc_White.xaml.cs">
-      <DependentUpon>Appointment_Doc_White.xaml</DependentUpon>
-    </Compile>
+    <Page Include="View\AnalisisPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AppointmentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Authentication_Window.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -179,6 +225,10 @@
     <Page Include="View\Authentication_window_admin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ChoosingDoctor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\doctor_page.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -191,6 +241,14 @@
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\MedcardPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MedcardResearchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Profile_User.xaml">
       <Generator>MSBuild:Compile</Generator>

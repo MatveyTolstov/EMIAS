@@ -11,9 +11,10 @@
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <UserControl xmlns:svgc="http://sharpvectors.codeplex.com/svgc/" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30">
-            <svgc:SvgViewbox Source="/Icons/glasses.svg"/>
+        <UserControl HorizontalAlignment="Center" VerticalAlignment="Center" Height="30">
+            <Image Source="/img/glasses.png" Height="30" />
         </UserControl>
+
         <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Text="Офтальмолог"></TextBlock>
     </Grid>
 </UserControl>

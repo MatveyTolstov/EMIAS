@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Runtime.InteropServices;
+using System;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,16 +18,59 @@ namespace EMIAS
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        [DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+        private const int WM_SYSCOMMAND = 0x112;
+        private const int SC_MOVE = 0xF010;
+        private const int HTCAPTION = 0x2;
+
         public MainWindow()
         {
             InitializeComponent();
             PagesFrame.Content = new MainPagePatient();
         }
 
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (e.LeftButton == MouseButtonState.Pressed)
-                DragMove();
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (this.WindowState == WindowState.Maximized)
+            {
+                this.WindowState = WindowState.Normal;
+            }
+            else
+            {
+                this.WindowState = WindowState.Maximized;
+            }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(new System.Windows.Interop.WindowInteropHelper(this).Handle, WM_SYSCOMMAND, SC_MOVE + HTCAPTION, 0);
+
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Authentication_Window aut = new Authentication_Window();
+            aut.Show();
+            Close();
+
         }
 
     }
