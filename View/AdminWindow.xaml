@@ -3,10 +3,86 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:EMIAS.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="AdminWindow" Height="450" Width="800">
+        Title="AdminWindow" Style="{StaticResource WindowDefault}" Width="1200" MouseDown="Window_MouseLeftButtonDown">
+    <!--Скрытие кнопок-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <!--Скрытие кнопок-->
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Header-->
+        <Grid Grid.Row="0" Background="#FF007BFE" Grid.ColumnSpan="2" Margin="0,2,0,1">
+            <Label Content="ЕМИАС - Администратор" HorizontalAlignment="Left" Foreground="White" FontSize="19" Margin="3,1,0,0" Background="{x:Null}"/>
+            <Button Height="18" Width="18" BorderBrush="{x:Null}" HorizontalAlignment="Left" Margin="231,7,0,4">
+                <Button.Background>
+                    <ImageBrush  Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 0 5 0">
+                <Button Style="{StaticResource MinimizeButtonStyle}" Margin="0 0 0 0" Click="Button_Click_2"/>
+                <Button Style="{StaticResource MaximizeButtonStyle}" Margin="0 0 0 0" Click="Button_Click_1"/>
+                <Button Style="{StaticResource CloseButtonStyle}" Margin="0 0 0 0" Click="Button_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Main Content -->
+        <Grid Grid.Row="1" Grid.Column="0" Margin="0,0,5,0">
+            <DataGrid ItemsSource="{Binding Data}" SelectedItem="{Binding SelectedItem}"  AutoGenerateColumns="True" Background="#EDEDED" Margin="0" BorderBrush="Black" Foreground="#FF0E0E0E"/>
+        </Grid>
+
+
+        <Grid Grid.Row="1" Grid.Column="1" Margin="0,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <ComboBox x:Name="Role" ItemsSource="{Binding Roles}" SelectedItem="{Binding SelectedRole}" Margin="4,10,4,0" Grid.Row="0" materialDesign:HintAssist.Hint=" Роль пользователя" VerticalAlignment="Top" BorderBrush="Black" BorderThickness="1" Height="23" Foreground="Black" Background="#FDFFFFFF"/>
+            <TextBox x:Name="PolisNumber" Text="{Binding Id}" Grid.Row="1" materialDesign:HintAssist.Hint=" Номер полиса" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090"/>
+            <TextBox x:Name="Passwd" Grid.Row="1" Text="{Binding Surname}"  materialDesign:HintAssist.Hint=" Пароль для входа" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090" />
+            <TextBox x:Name="Secondname" Grid.Row="2" Text="{Binding Firstname}" materialDesign:HintAssist.Hint=" Фамилия" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090"/>
+            <TextBox x:Name="Name" Grid.Row="3" Text="{Binding Surname}" materialDesign:HintAssist.Hint=" Имя" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090"/>
+            <TextBox x:Name="Middlename" Grid.Row="4" Text="{Binding Middlename}" materialDesign:HintAssist.Hint=" Отчество" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090"/>
+            <TextBox x:Name="HB" Grid.Row="5" Text="{Binding Date}" materialDesign:HintAssist.Hint=" Дата рождения" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090"/>
+            <TextBox x:Name="Special" Grid.Row="5" Text="{Binding Adddress}" materialDesign:HintAssist.Hint=" Специальность врача" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090" />
+            <TextBox x:Name="AdrsPolis" Grid.Row="6" materialDesign:HintAssist.Hint=" Адрес прописки" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090"/>
+            <TextBox x:Name="Adrsjob" Grid.Row="6" materialDesign:HintAssist.Hint=" Адрес места работы" BorderBrush="#FFA9A8A8" BorderThickness="1" Margin="4,4,4,0" Foreground="#FF909090" Visibility="Collapsed"/>
+
+            <!-- Buttons -->
+            <Button Command="{Binding CreateButton}"  Grid.Row="8" Style="{StaticResource BlueBottom}" Content="Добавить запись" FontSize="20" Margin="4"/>
+            <Button Command="{Binding Update}" x:Name="updatebut" Grid.Row="9" Style="{StaticResource BlueBottom}" Content="Изменить запись" FontSize="20" Margin="4"/>
+            <Button x:Name="delbutt" Grid.Row="10" Style="{StaticResource BlueBottom}" Content="Удалить запись" FontSize="20" Margin="4"/>
+            <Button x:Name="exit" Grid.Row="11" Style="{StaticResource RedButton}" Content="Выйти из аккаунта" FontSize="20" Margin="4" Click="exit_Click"/>
+        </Grid>
     </Grid>
 </Window>
+
+
+
+
+
+
+
+
+

@@ -292,3 +292,5 @@ D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.Properties.Resources.res
 D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.GenerateResource.cache
 D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.CoreCompileInputs.cache
 D:\Рабочий стол\github\EMIAS\obj\Debug\EMIAS.csproj.Up2Date
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\AdminWindow.baml
+D:\Рабочий стол\github\EMIAS\obj\Debug\View\AdminWindow.g.cs

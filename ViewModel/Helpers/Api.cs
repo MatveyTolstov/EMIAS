@@ -13,13 +13,13 @@ namespace EMIAS.ViewModel.Helpers
 
         //метод для обновления данных передаем id и данные
 
-        public static string Put(string json, int id)
+        public static string Put(string json, int id, string additional)
         {
             try
             {
                 HttpClient client = new HttpClient();
                 HttpContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                HttpResponseMessage message = client.PutAsync(Url + "/" + id, content).Result;
+                HttpResponseMessage message = client.PutAsync(Url + additional + id, content).Result;
                 return message.Content.ReadAsStringAsync().Result;
 
             }
@@ -32,12 +32,12 @@ namespace EMIAS.ViewModel.Helpers
 
         //метод для получение данных 
 
-        public static string Get()
+        public static string Get(string additional)
         {
             try
             {
                 HttpClient client = new HttpClient();
-                HttpResponseMessage message = client.GetAsync(Url).Result;
+                HttpResponseMessage message = client.GetAsync(Url+ additional).Result;
                 return message.Content.ReadAsStringAsync().Result;
             }
             catch (Exception ex)
@@ -49,12 +49,12 @@ namespace EMIAS.ViewModel.Helpers
 
         //метод для обновления данных передаем id 
 
-        public static string GetByID(int id)
+        public static string GetByID(int id, string additional)
         {
             try
             {
                 HttpClient client = new HttpClient();
-                HttpResponseMessage message = client.GetAsync(Url + "/" + id).Result;
+                HttpResponseMessage message = client.GetAsync(Url + additional + id).Result;
                 return message.Content.ReadAsStringAsync().Result;
             }
             catch (Exception ex)
@@ -84,12 +84,12 @@ namespace EMIAS.ViewModel.Helpers
 
         //метод для удаления данных
 
-        public static string Delete(int id)
+        public static string Delete(int id, string additional)
         {
             try
             {
                 HttpClient client = new HttpClient();
-                HttpResponseMessage message = client.DeleteAsync(Url + "/" + id).Result;
+                HttpResponseMessage message = client.DeleteAsync(Url + additional + id).Result;
                 return message.Content.ReadAsStringAsync().Result;
             }
             catch (Exception ex)

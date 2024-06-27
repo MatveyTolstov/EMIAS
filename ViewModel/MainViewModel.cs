@@ -16,6 +16,8 @@ namespace EMIAS.ViewModel
 
         public BindableCommand Prevcommand { get; set; }
 
+
+
         private string kalendar1;
         public string Kalendar1
         {

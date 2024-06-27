@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Рабочий стол\github\EMIAS\App.xaml
-191687008423
+20-1227588825
 61908032469
-38993297921
+39155215236
 231358934324
-ButtonForWindow.xaml;Cards\Analysis_white.xaml;Cards\Archival_recording_white.xaml;Cards\DoctorCard.xaml;Cards\Info_card_white.xaml;Cards\Month.xaml;Cards\ValidEntry.xaml;Cards\Valid_entry_white.xaml;View\admin_page.xaml;View\Appointment_Doc_Black.xaml;View\Appointment_Doc_White.xaml;View\Authentication_Window.xaml;View\Authentication_window_admin.xaml;View\doctor_page.xaml;View\MainPagePatient.xaml;View\MainWindow.xaml;View\Profile_User.xaml;View\user_page.xaml;View\Window1.xaml;
+ButtonForWindow.xaml;Cards\Analysis_white.xaml;Cards\Archival_recording_white.xaml;Cards\DoctorCard.xaml;Cards\Info_card_white.xaml;Cards\Month.xaml;Cards\ValidEntry.xaml;Cards\Valid_entry_white.xaml;View\AdminWindow.xaml;View\admin_page.xaml;View\Appointment_Doc_Black.xaml;View\Appointment_Doc_White.xaml;View\Authentication_Window.xaml;View\Authentication_window_admin.xaml;View\doctor_page.xaml;View\MainPagePatient.xaml;View\MainWindow.xaml;View\Profile_User.xaml;View\user_page.xaml;View\Window1.xaml;
 
-True
+False
 
